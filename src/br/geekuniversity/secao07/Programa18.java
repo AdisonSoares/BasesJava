@@ -24,6 +24,7 @@ package br.geekuniversity.secao07;
  * 
  */
 public class Programa18 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Declaração e definição de tamanho
 		int matriz[][] = new int[3][3];

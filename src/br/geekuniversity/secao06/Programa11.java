@@ -2,6 +2,7 @@ package br.geekuniversity.secao06;
 //Tipo de dados
 //Numericos(Inteiro e Reais)
 public class Programa11 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Tipos primários ou Primitivos
 		//São comuns, básicos

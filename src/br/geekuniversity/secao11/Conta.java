@@ -19,8 +19,10 @@
 
 package br.geekuniversity.secao11;
 public class Conta {
+	@SuppressWarnings("unused")
 	private int conta;
 	private float saldo, limite;
+	@SuppressWarnings("unused")
 	private Cliente cliente;
 
 	public Conta(int conta, float saldo, float limite, Cliente cliente) {
@@ -34,6 +36,7 @@ public class Conta {
 	public void sacar(float saque) {
 		if (saque <= (this.saldo)) {
 			this.saldo = this.saldo - saque;
+			System.out.println("Saque realizado");
 
 		} else if (saque <= (this.saldo + this.limite)) {
 			float retirada = this.saldo - saque;

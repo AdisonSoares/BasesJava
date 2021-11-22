@@ -6,6 +6,7 @@ package br.geekuniversity.secao03;
  * Exemplo:
  * GuardaChuva ou Guarda_Chuva*/
 public class Programa01 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		System.out.println("Olá maluco");
 		//Declaração de Variáveis

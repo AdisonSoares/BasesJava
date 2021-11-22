@@ -19,7 +19,7 @@ public class Programa31 {
 	public static void main(String[] args) {
 		//Pessoa maria = new Pessoa("Maria da Silva",1999,"maria@gmail.com");//Não é mais possível por ser uma classe abstrata
 		Aluno maria = new Aluno("Maria da Silva",1999,"maria@gmail.com","587165");
-		System.out.println(maria);
+		System.out.println(maria.toString());
 		maria.outra_mensagem("Só sei que nada sei");
 	}
 }

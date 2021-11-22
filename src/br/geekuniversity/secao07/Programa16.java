@@ -15,6 +15,7 @@ vetor[4]=9;//Quinto elemento
 //Exemplo 5-1=4(última posição do vetor) 
  */
 public class Programa16 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Declarando um vetor sem especificar o tamanho/posições
 		int vetor[];

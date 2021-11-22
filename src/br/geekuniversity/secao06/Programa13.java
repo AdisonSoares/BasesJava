@@ -3,6 +3,7 @@ package br.geekuniversity.secao06;
 //Caracteres e Strings
 //OBS - Strings não possuem ocupação fixa de memória pois são um tipo de alocação em vetor de memória
 public class Programa13 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		//Tipos primitivos

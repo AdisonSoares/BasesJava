@@ -1,6 +1,7 @@
 package br.geekuniversity.secao06;
 //Tipos boleanos
 public class Programa14 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Tipos primitivos
 		boolean verdadeiro=true;
@@ -25,11 +26,12 @@ public class Programa14 {
 			System.out.println("É falso");
 		}
 		//-----------------------------//
-		if(1==1) {
+		/*if(1==1) {
 			System.out.println("É verdadeiro");
 		}else {
 			System.out.println("É falso");
 		}
+		*/
 		//-----------------------------//
 		boolean ativo=true;
 		if(ativo) {

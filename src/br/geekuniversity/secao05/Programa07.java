@@ -4,6 +4,7 @@ package br.geekuniversity.secao05;
 //Correção do bug do laço de repetição com String e int
 import java.util.Scanner;
 public class Programa07 {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int idade=1;

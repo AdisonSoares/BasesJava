@@ -19,7 +19,7 @@ public class Programa09 {
 			System.out.println("Idade: "+idade);
 			System.out.println();
 			
-			
+			sc.close();
 			
 		}
 	}
