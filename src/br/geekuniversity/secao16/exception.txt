@@ -1,0 +1,11 @@
+Existem dois grupos de excessões:
+
+Checked Exception(Exceções checadas) menos perigosas - não executa:
+-Exception
+-IOException
+-SQLException
+
+Unchecked Exception(Exceções não checadas) mais perigosas - executa o programa:
+-RunTimeException
+-NullPonterException
+-ArrayOutOfBoundsException
