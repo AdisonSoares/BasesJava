@@ -1,26 +1,30 @@
-package br.geekuniversity.secao08;
-//Funções ou Métodos parte 1
+/*Documentação por Javadoc:*/
+/**
+ * Funções ou Métodos parte 1
+ * 
+ * Uma função deve ter:
+ * a)Tipo de retorno(Tipo de dado que a função retorna).
+ * b)Nome - Corresponde a ação que o método/função realiza.
+ * c)Parâmetros/Argumentos de entrada(Opcional).
+ * d)Retorno de acordo com o tipo de função ou método
+ * (Sem retorno em void e obrigatório para outro tipo).
+ * 
+ * @author Positivo
+ *
+ */
 
-/*
- Faça um programa que receba diversos nomes
+/*Faça um programa que receba diversos nomes
  de frutas do usuário e no final imprima essas
  frutas em ordem contrária. O programa deve solicitar
  ao usuário quantas frutas ele quer informar. 
+ OBS - Void significa vazio, sem retorno
+ OBS - Atalho para identar tudo CTRL+SHIFT+F
+ OBS - Atalho para organizar os imports CTRL+SHIFT+O
+ Varivel global fica acessível em toda a classe e precisa ter o acesso estatico
 */
-/* 
- Uma função deve ter:
- a)Tipo de retorno(Tipo de dado que a função retorna)
- b)Nome - Corresponde a ação que o método/função realiza
- c)Parâmetros/Argumentos de entrada(Opcional)
- d)Retorno de acordo com o tipo de função ou método(Sem retorno em void e obrigatório para outro tipo)
- */
-//OBS - Void significa vazio, sem retorno
-//OBS - Atalho para identar tudo CTRL+SHIFT+F
-//OBS - Atalho para organizar os imports CTRL+SHIFT+O
-//Varivel global fica acessível em toda a classe e precisa ter o acesso estatico
 
+package br.geekuniversity.secao08;
 import java.util.Scanner;
-
 public class Programa20 {
 	static String frutas[];
 	static Scanner sc = new Scanner(System.in);

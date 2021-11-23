@@ -1,5 +1,11 @@
+/*Documentação por Javadoc:*/
+/**
+ * Compilador e Bytecode
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao03;
-//Compilador e Bytecode
 public class Programa02 {
 
 	public static void main(String[] args) {

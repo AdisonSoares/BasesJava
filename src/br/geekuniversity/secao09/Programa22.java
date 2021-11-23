@@ -1,25 +1,29 @@
+/*Documentação por Javadoc:*/
+/**
+ * Criação de objetos e Construtor
+ * @author Positivo
+ *
+ */
+
+/*Objetos são produtos/instancias da classe, a partir de uma classe
+  é criado um objeto.
+  Para se criar um objeto primeiro inicia com o tipo do objeto depois o nome
+  que se quer deixar para esse objeto depois declara que é um novo tipo de objeto.
+  No momento em que um objeto é declarado e inicializado/instanciado o programa separa
+  um local da memória para guardar a informação.
+  Caso um objeto seja apenas declarado não existe a alocação de momória.
+  No exemplo abaixo o p0 é a instância do objeto ou objeto,ou seja,
+  o p0 é uma instancia/objeto da classe Produto.
+  OBS - Quando se coloca um valor com ponto em uma variável de tipo flutuante precisa
+  colocar f no final no número, caso não tenha ponto ele converte automático para float.
+  Construtor é um método especial que constroe o objeto/instância.
+  Por ser um método também pode ser chamado de Método Construtor.
+  O construtor da classe sempre tem o mesmo nome da classe.
+  Pode haver mais de um construtor na classe.
+  Por padrão, a JVM - Java Virtual Machine cria, em tempo de construção, um
+  construtor vazio(sem parâmetros) padrão.*/
+
 package br.geekuniversity.secao09;
-/*Criação de objetos e Construtor
-
-Objetos são produtos/instancias da classe, a partir de uma classe
-é criado um objeto.
-Para se criar um objeto primeiro inicia com o tipo do objeto depois o nome
-que se quer deixar para esse objeto depois declara que é um novo tipo de objeto.
-No momento em que um objeto é declarado e inicializado/instanciado o programa separa
-um local da memória para guardar a informação.
-Caso um objeto seja apenas declarado não existe a alocação de momória.
-No exemplo abaixo o p0 é a instância do objeto ou objeto,ou seja,
-o p0 é uma instancia/objeto da classe Produto.
-OBS - Quando se coloca um valor com ponto em uma variável de tipo flutuante precisa
-colocar f no final no número, caso não tenha ponto ele converte automático para float.
-
-Construtor é um método especial que constroe o objeto/instância.
-Por ser um método também pode ser chamado de Método Construtor.
-O construtor da classe sempre tem o mesmo nome da classe.
-Pode haver mais de um construtor na classe.
-Por padrão, a JVM - Java Virtual Machine cria, em tempo de construção, um
- construtor vazio(sem parâmetros) padrão.*/
-
 public class Programa22 {
 	public static void main(String[] args) {
 

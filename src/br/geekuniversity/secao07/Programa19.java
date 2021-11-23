@@ -1,7 +1,12 @@
-package br.geekuniversity.secao07;
-//Matriz parte 2
-//OBS - O laço i cobre os valores da linha e o laço j os valores da coluna da matriz
+/*Documentação por Javadoc:*/
+/**
+ * Matriz parte 2
+ * OBS - O laço i cobre os valores da linha e o laço j os valores da coluna da matriz
+ * @author Positivo
+ *
+ */
 
+package br.geekuniversity.secao07;
 public class Programa19 {
 	public static void main(String[] args) {
 		int matriz[][] = new int [3][3];
@@ -35,6 +40,4 @@ public class Programa19 {
 			}
 		}
 	}	
-	
-	
 }

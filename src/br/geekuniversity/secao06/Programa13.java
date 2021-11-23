@@ -1,7 +1,14 @@
+/*Documentação por Javadoc:*/
+/**
+ * Tipos de dados alfanumericos
+ * Caracteres e Strings
+ * OBS - Strings não possuem ocupação fixa de memória pois
+ * são um tipo de alocação em vetor de memória
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao06;
-//Tipos de dados alfanumericos
-//Caracteres e Strings
-//OBS - Strings não possuem ocupação fixa de memória pois são um tipo de alocação em vetor de memória
 public class Programa13 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
@@ -24,11 +31,5 @@ public class Programa13 {
 		
 		System.out.println("letra "+letra3);//Retorna a letra armazenada
 		System.out.println("char/Character ocupa "+Character.SIZE+" bits na memória");//Ocupação em memória
-	
-		
-		
-		
 	}
-	
-
 }

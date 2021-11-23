@@ -1,5 +1,12 @@
+/*Documentação por Javadoc:*/
+//
+/**
+ * Funções ou Métodos parte 2
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao08;
-//Funções ou Métodos parte 2
 public class Programa21 {
 	public static void main(String[] args) {
 		int valor1 = 6, valor2 = 4, res;

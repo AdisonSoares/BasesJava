@@ -1,5 +1,11 @@
+/*Documentação por Javadoc:*/
+/**
+ * Vetores parte 2
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao07;
-//Vetores parte 2
 public class Programa17 {
 	public static void main(String[] args) {
 		//Declaração e definição de tamanho do vetor

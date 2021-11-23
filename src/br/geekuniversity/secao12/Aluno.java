@@ -18,12 +18,17 @@ public class Aluno extends Pessoa{
 		this.registroAcademico = registroAcademico;
 	}
 	
-	//Polimorfismo do método toString
+	/**
+	 * Polimorfismo do método toString
+	 */
 	public String toString() {
 		return super.toString()+"\nRegistro Acadêmico: "+ this.registroAcademico;
 	}
 	
-	@Override//Sobrescrita
+	@Override
+	/**
+	 * Sobrescrita
+	 */
 	public void outra_mensagem(String texto) {
 		System.out.println(texto);
 		

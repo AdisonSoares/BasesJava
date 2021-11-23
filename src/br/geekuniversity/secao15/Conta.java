@@ -25,7 +25,10 @@ public class Conta {
 		this.cliente = cliente;
 	}
 	
-	//Método estático
+	/**
+	 * Método estático
+	 * @return valor do contador
+	 */
 	public static int proximaConta() {
 		return Conta.contador;
 	}

@@ -1,10 +1,12 @@
-/*Ao se fazer uso de um atributo public de outro pacote é preciso
-**importar.*/
+/*Documentação com Javadoc:*/
+/**
+ * Ao se fazer uso de um atributo public de outro pacote é preciso importar
+ * @author Positivo
+ *
+ */
 
 package br.geekuniversity.secao_01;
-
 import br.geekuniversity.secao11.Cliente;
-
 public class Programa26 {
 
 	public static void main(String[] args) {

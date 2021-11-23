@@ -1,5 +1,11 @@
+/*Documentação por Javadoc:*/
+/**
+ * Instrução Switch case
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao04;
-//Instrução Switch
 public class Programa06 {
 	public static void main(String[] args) {
 		int numero=3;

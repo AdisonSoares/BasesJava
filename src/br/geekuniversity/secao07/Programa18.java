@@ -1,5 +1,10 @@
-package br.geekuniversity.secao07;
-//Matriz parte 1
+/*Documentação por Javadoc:*/
+/**
+ * Matriz parte 1
+ * @author Positivo
+ *
+ */
+
 //Vetores/arrays/matrizer multidi-mensionais
 
 /* Vetor // linhas
@@ -23,6 +28,8 @@ package br.geekuniversity.secao07;
  * matriz[2][2]=9;
  * 
  */
+
+package br.geekuniversity.secao07;
 public class Programa18 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

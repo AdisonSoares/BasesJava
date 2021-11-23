@@ -1,6 +1,12 @@
+/*Documentação por Javadoc:*/
+/**
+ * Tipo de dados
+ * Numericos(Inteiro e Reais)
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao06;
-//Tipo de dados
-//Numericos(Inteiro e Reais)
 public class Programa12 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

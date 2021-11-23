@@ -1,5 +1,11 @@
+/*Documentação por Javadoc:*/
+/**
+ * Operações matematicas
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao06;
-//Operações matematicas
 public class Programa15 {
 	public static void main(String[] args) {
 		int num1=5, num2=9;

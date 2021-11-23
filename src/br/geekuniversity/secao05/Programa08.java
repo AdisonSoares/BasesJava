@@ -1,8 +1,15 @@
+/*Documentação por Javadoc:*/
+/**
+ * A variável do tipo Scanner vai capturar a informação Do While
+ * Correção do bug do laço de repetição com String e int
+ * @author Positivo
+ *
+ */
+
 package br.geekuniversity.secao05;
-// A variável do tipo Scanner vai capturar a informação
-//Do While
-//Correção do bug do laço de repetição com String e int
+
 import java.util.Scanner;
+
 public class Programa08 {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

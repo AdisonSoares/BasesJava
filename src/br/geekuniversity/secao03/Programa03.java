@@ -1,5 +1,10 @@
+/*Documentação por Javadoc:*/
+/**
+ * Função Main
+ * @author Positivo
+ *
+ */
 package br.geekuniversity.secao03;
-//Função Main
 public class Programa03 {
 	//Essa função que torna a classe java em um programa java
 	//Método de entrada um Array de String chamado "args"

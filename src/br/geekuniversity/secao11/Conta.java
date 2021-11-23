@@ -33,6 +33,10 @@ public class Conta {
 	}
 
 	// ----------------------------------//
+	/**
+	 * Método para sacar 
+	 * @param valor de saque
+	 */
 	public void sacar(float saque) {
 		if (saque <= (this.saldo)) {
 			this.saldo = this.saldo - saque;
@@ -52,15 +56,26 @@ public class Conta {
 	}
 	
 	// ----------------------------------//
+	/**
+	 * Metodo para deposito
+	 * @param valor de deposito
+	 */
 	public void depositar(float deposito) {
 		this.saldo = this.saldo + deposito;
 	}
 
 	// ----------------------------------//
+	/**
+	 * Metodo para mostrar o saldo
+	 * @return valor atual
+	 */
 	public float getSaldo() {
 		return this.saldo + this.limite;
 	}
-
+	/**
+	 * Metodo para mostrar o limite
+	 * @return limite atual
+	 */
 	public float getLimite() {
 		return this.limite;
 	}
