@@ -31,7 +31,9 @@ public class Conta {
 		this.limite = limite;
 		this.cliente = cliente;
 	}
-
+	// ----------------------------------//
+	public Conta() { }
+	
 	// ----------------------------------//
 	/**
 	 * Método para sacar 
@@ -78,6 +80,16 @@ public class Conta {
 	 */
 	public float getLimite() {
 		return this.limite;
+	}
+	@Override
+	public String toString() {
+		return "O saldo da conta é: "+this.getSaldo();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Conta verificar = (Conta) obj;//Cast, trabalho com o obj como se fosse uma conta
+		return verificar.getSaldo()==this.getSaldo();
 	}
 
 }
