@@ -88,8 +88,11 @@ public class Conta {
 	
 	@Override
 	public boolean equals(Object obj) {
-		Conta verificar = (Conta) obj;//Cast, trabalho com o obj como se fosse uma conta
-		return verificar.getSaldo()==this.getSaldo();
+		if(!(obj instanceof Conta)) {
+			return false;
+		}else {
+			Conta verificar = (Conta) obj;//Cast, trabalho com o obj como se fosse uma conta
+			return verificar.getSaldo()==this.getSaldo();
+		}
 	}
-
 }

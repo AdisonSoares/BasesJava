@@ -48,6 +48,12 @@ public class Programa39 extends Object{
 		System.out.println("Saldo na posição 0 é: "+((Conta)armConta.pegar(0)).getSaldo());
 		System.out.println("Saldo na posição 1 é: "+((Conta)armConta.pegar(1)).getSaldo());
 		
+		armConta.adicionar(cli01);// Não tem getSaldo
+		
+		//Precisa fazer um cast Cliente pois é do tipo object
+		System.out.println("Nome do Cliente: "+((Cliente)armConta.pegar(2)).getNome());
+		
+		
 	}
 
 }
