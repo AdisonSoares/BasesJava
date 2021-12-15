@@ -52,8 +52,6 @@ public class Programa39 extends Object{
 		
 		//Precisa fazer um cast Cliente pois é do tipo object
 		System.out.println("Nome do Cliente: "+((Cliente)armConta.pegar(2)).getNome());
-		
-		
 	}
 
 }
