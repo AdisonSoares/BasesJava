@@ -10,7 +10,7 @@ import br.geekuniversity.secao11.Conta;
 public class Principal {
 
 	/* OBJETOS */
-	static Cliente cliente = new Cliente("Geraldo Magela", "Qn 18b, Casa 08, Lote 05");
+	static Cliente cliente = new Cliente(28 ,"Geraldo Magela", "Qn 18b, Casa 08, Lote 05");
 	static Conta conta = new Conta(1, 200, 300, cliente);
 	static Scanner sc = new Scanner(System.in);
 

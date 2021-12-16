@@ -8,7 +8,7 @@ package br.geekuniversity.secao11;
 public class Programa27 {
 
 	public static void main(String[] args) {
-		Cliente cli1 = new Cliente("Creuza Ziranda", "Rua sem nome, sem numero, sem nada");
+		Cliente cli1 = new Cliente(27, "Creuza Ziranda", "Rua sem nome, sem numero, sem nada");
 		
 		System.out.println("Nome "+cli1.getNome());
 		System.out.println("Endereço "+cli1.getEndereco());

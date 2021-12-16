@@ -8,8 +8,8 @@ import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 public class Programa39 extends Object{
 	public static void main(String[] args) {
-		Cliente cli01 = new Cliente("Josoaldo Silva", "SHVP, Ch 40, Lote 30");
-		Cliente cli02 = new Cliente("Filiano Rodrigues", "QNP 40, Lote 15, Casa 13");
+		Cliente cli01 = new Cliente(42, "Josoaldo Silva", "SHVP, Ch 40, Lote 30");
+		Cliente cli02 = new Cliente(27,"Filiano Rodrigues", "QNP 40, Lote 15, Casa 13");
 		Caixa armConta = new Caixa();
 		
 		Conta cont01 = new Conta(1, 200, 300, cli01);

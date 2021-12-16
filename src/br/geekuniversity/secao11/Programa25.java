@@ -11,8 +11,8 @@ package br.geekuniversity.secao11;
 
 public class Programa25 {
 	public static void main(String[] args) {
-		Cliente cliente_1 = new Cliente("João do Barro", "Qnl 20, Conj 03, Casa 02");
-		Cliente cliente_2 = new Cliente("Maria Gasosa", "Qnj 40, Conj 08, Apt 201");
+		Cliente cliente_1 = new Cliente(45, "João de Barro", "Qnl 20, Conj 03, Casa 02");
+		Cliente cliente_2 = new Cliente(14, "Maria Gilda", "Qnj 40, Conj 08, Apt 201");
 
 		Conta conta_1 = new Conta(1, 100.00f, 200.00f, cliente_1);
 		Conta conta_2 = new Conta(2, 300.00f, 500.00f, cliente_2);

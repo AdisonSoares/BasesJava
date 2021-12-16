@@ -12,10 +12,12 @@
   o acesso é como um elemento public dentro do pacote.*/
 
 package br.geekuniversity.secao11;
-public class Cliente {
+public class Cliente implements Comparable{
 	private String nome, endereco;
+	private int idade;
 
-	public Cliente(String nome, String endereco) {
+	public Cliente(int idade, String nome, String endereco) {
+		this.idade = idade;
 		this.nome = nome;
 		this.endereco = endereco;
 		//this.dizer_oi();
@@ -34,4 +36,31 @@ public class Cliente {
 	public String getEndereco() {
 		return this.endereco;
 	}
+	
+	@Override
+	public String toString() {
+		return this.nome +" " +this.endereco;
+	}
+
+	@Override
+	public int compareTo(Object outro) {
+		Cliente aux = (Cliente)outro;
+		if(this.idade<aux.idade) {
+			return -1;
+		}else if(this.idade>aux.idade) {
+			return 1;
+		}else {
+			return 0;
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@ import br.geekuniversity.secao11.Cliente;
 public class Programa26 {
 
 	public static void main(String[] args) {
-		Cliente cli = new Cliente("Astrovaldo Guerreiro", "Qnm 81, Conj 30, Casa 18");
+		Cliente cli = new Cliente(64, "Astrovaldo Guerreiro", "Qnm 81, Conj 30, Casa 18");
 
 		//São privates, não podem ser acessados dessa forma:
 		//System.out.println("Cliente: " + cli.nome);
