@@ -51,7 +51,7 @@ public class Programa45 {
 		}
 		System.out.println();
 		
-		/*Exibir de forma ordenada vai funcionar quando definir o tipo de Arraylist*/
+		/*Exibir de forma ordenada vai funcionar quando definir o tipo de Arraylist - ERRO*/
 		Collections.sort(nomes);
 		System.out.println("Exibição com laço foreach:");
 		for (Object objNome : nomes) {
