@@ -12,6 +12,7 @@
   o acesso é como um elemento public dentro do pacote.*/
 
 package br.geekuniversity.secao11;
+@SuppressWarnings("rawtypes")
 public class Cliente implements Comparable{
 	private String nome, endereco;
 	private int idade;
