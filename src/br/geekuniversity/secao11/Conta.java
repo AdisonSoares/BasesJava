@@ -18,6 +18,7 @@
  * mesmo estando no mesmo projeto.*/
 
 package br.geekuniversity.secao11;
+
 public class Conta {
 	@SuppressWarnings("unused")
 	private int conta;
@@ -31,12 +32,15 @@ public class Conta {
 		this.limite = limite;
 		this.cliente = cliente;
 	}
+
 	// ----------------------------------//
-	public Conta() { }
-	
+	public Conta() {
+	}
+
 	// ----------------------------------//
 	/**
-	 * Método para sacar 
+	 * Método para sacar
+	 * 
 	 * @param valor de saque
 	 */
 	public void sacar(float saque) {
@@ -56,43 +60,55 @@ public class Conta {
 			System.out.println("Saldo insuficiente");
 		}
 	}
-	
+
 	// ----------------------------------//
 	/**
 	 * Metodo para deposito
+	 * 
 	 * @param valor de deposito
 	 */
 	public void depositar(float deposito) {
-		this.saldo = this.saldo + deposito;
+		/*Forma 01 de sincronização*/
+		synchronized(this) {
+			this.saldo = this.saldo + deposito;
+		}
 	}
+	/*Forma 02 de sincronização
+	 * public synchronized void depositar(float valor){
+	 * 		this.saldo = this.saldo+valor;
+	 * }*/
 
 	// ----------------------------------//
 	/**
 	 * Metodo para mostrar o saldo
+	 * 
 	 * @return valor atual
 	 */
 	public float getSaldo() {
 		return this.saldo + this.limite;
 	}
+
 	/**
 	 * Metodo para mostrar o limite
+	 * 
 	 * @return limite atual
 	 */
 	public float getLimite() {
 		return this.limite;
 	}
+
 	@Override
 	public String toString() {
-		return "O saldo da conta é: "+this.getSaldo();
+		return "O saldo da conta é: " + this.getSaldo();
 	}
-	
+
 	@Override
 	public boolean equals(Object obj) {
-		if(!(obj instanceof Conta)) {
+		if (!(obj instanceof Conta)) {
 			return false;
-		}else {
-			Conta verificar = (Conta) obj;//Cast, trabalho com o obj como se fosse uma conta
-			return verificar.getSaldo()==this.getSaldo();
+		} else {
+			Conta verificar = (Conta) obj;// Cast, trabalho com o obj como se fosse uma conta
+			return verificar.getSaldo() == this.getSaldo();
 		}
 	}
 }
