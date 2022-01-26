@@ -33,3 +33,9 @@ public class Programa13 {
 		System.out.println("char/Character ocupa "+Character.SIZE+" bits na memória");//Ocupação em memória
 	}
 }
+
+
+
+
+
+
