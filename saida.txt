@@ -1,3 +1,0 @@
-Escrevendo uma nova mensagem no arquivo.txt
-Essa mensagem não vai ser sobrescrita pois está sendo feita no programa 44
-Teste programa44
