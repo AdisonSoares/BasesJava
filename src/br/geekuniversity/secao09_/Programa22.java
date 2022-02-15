@@ -40,7 +40,7 @@ public class Programa22 {
 		// Declarando e instanciando/inicializando o objeto
 		Produto p1 = new Produto();// O Protudo(); é o construtor
 		
-		p1.
+		
 		p1.nome = "Notebook";
 		p1.preco = 2.780f;
 		p1.desconto = 15.0f;
