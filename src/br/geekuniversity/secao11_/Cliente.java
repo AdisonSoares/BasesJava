@@ -2,14 +2,10 @@
 /**
  * Se não é colocado um modificador de acesso em um método ou atributo ele recebe
  * por padrão o modificador protected.
- * @author Positivo
- *
- */
-
-/*O modificador Protected(protegido) permite que o elemento seja visivel somente
-  no pacote onde o mesmo foi declarado, mesmo sendo o mesmo projeto.
-  Ao acessar um elemento protected não é preciso método get ou set, nesse caso 
-  o acesso é como um elemento public dentro do pacote.*/
+ * O modificador Protected(protegido) permite que o elemento seja visivel somente
+ * no pacote onde o mesmo foi declarado, mesmo sendo o mesmo projeto.
+ * Ao acessar um elemento protected não é preciso método get ou set, nesse caso 
+ * o acesso é como um elemento public dentro do pacote.*/
 
 package br.geekuniversity.secao11_;
 

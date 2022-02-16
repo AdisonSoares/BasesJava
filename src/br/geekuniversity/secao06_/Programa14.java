@@ -7,7 +7,7 @@
 
 package br.geekuniversity.secao06_;
 public class Programa14 {
-	@SuppressWarnings("unused")
+
 	public static void main(String[] args) {
 		//Tipos primitivos
 		boolean verdadeiro=true;
