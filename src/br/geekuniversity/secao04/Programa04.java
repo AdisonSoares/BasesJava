@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao04_;
+package br.geekuniversity.secao04;
 public class Programa04 {
 	public static void main(String[] args) {
 		int numero=5;
