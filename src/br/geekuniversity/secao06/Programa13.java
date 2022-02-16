@@ -8,7 +8,7 @@
  *
  */
 
-package br.geekuniversity.secao06_;
+package br.geekuniversity.secao06;
 public class Programa13 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

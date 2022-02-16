@@ -6,7 +6,7 @@
  *
  */
 
-package br.geekuniversity.secao06_;
+package br.geekuniversity.secao06;
 
 public class Programa11 {
 	@SuppressWarnings("unused")

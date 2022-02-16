@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao06_;
+package br.geekuniversity.secao06;
 public class Programa14 {
 
 	public static void main(String[] args) {
