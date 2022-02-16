@@ -1,7 +1,7 @@
 /*Escrevendo em arquivos 01*/
 
 /*Pacotes/Importações*/
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;

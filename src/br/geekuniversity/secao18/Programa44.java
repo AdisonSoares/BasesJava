@@ -1,6 +1,6 @@
 /*Escrevendo em arquivos 02*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 import java.io.FileOutputStream;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;

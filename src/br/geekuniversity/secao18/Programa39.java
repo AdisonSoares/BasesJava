@@ -3,7 +3,7 @@
  *por isso não aparece a extensão para Object.
  *A classe Object faz parte do pacote java.lang.*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 public class Programa39 extends Object{

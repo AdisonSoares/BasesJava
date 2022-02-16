@@ -1,6 +1,6 @@
 /*Lendo arquivos*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

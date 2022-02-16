@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao01;
+package br.geekuniversity.secao01_;
 import br.geekuniversity.secao11.Cliente;
 public class Programa26 {
 

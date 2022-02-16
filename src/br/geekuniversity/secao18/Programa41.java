@@ -3,7 +3,7 @@
  *preciso fazer uma nova variável para receber.
  *String é um array de caracteres.*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 public class Programa41 {
 	public static void main(String[] args) {
 		String mensagem01 = "Programação em java\n";

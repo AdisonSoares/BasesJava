@@ -1,7 +1,7 @@
 /*Utilizando a biblioteca Math.
  *Ela possui métodos e constantes estáticas para uso.*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 public class Programa40 {
 	public static void main(String[] args) {
 		

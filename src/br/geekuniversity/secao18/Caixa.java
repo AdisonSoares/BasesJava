@@ -1,6 +1,6 @@
 /*Caixa de objetos genêricos*/
 
-package br.geekuniversity.secao18_;
+package br.geekuniversity.secao18;
 public class Caixa {
 	
 	/**
