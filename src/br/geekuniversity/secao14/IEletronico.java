@@ -3,7 +3,7 @@
 **Todo o produto eletronico que implementar esta interface obrigatoriamente
 **deverão implementar os métodos abstratos.*/
 
-package br.geekuniversity.secao14_;
+package br.geekuniversity.secao14;
 public interface IEletronico {
 	public String MARCA = "Brastemp";
 	public void ligar();

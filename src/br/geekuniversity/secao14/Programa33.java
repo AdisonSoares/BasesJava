@@ -11,10 +11,11 @@
 **abstratos, permitindo um controle maior do que as classes filhas
 **estarão implementando.*/
 
-package br.geekuniversity.secao14_;
+package br.geekuniversity.secao14;
 
 import br.geekuniversity.secao14.Ventilador;
 
+@SuppressWarnings("unused")
 public class Programa33 {
 
 	@SuppressWarnings("static-access")

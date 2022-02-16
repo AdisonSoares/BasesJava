@@ -1,7 +1,8 @@
-package br.geekuniversity.secao14_;
+package br.geekuniversity.secao14;
 
 import br.geekuniversity.secao14.IEletronico;
 
+@SuppressWarnings("unused")
 public class Ventilador implements IEletronico{
 	private boolean ligado = false;
 	
