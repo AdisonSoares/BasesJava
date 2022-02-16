@@ -11,7 +11,7 @@
  *TRUE OU FALSE, A VANTAGEM ESTÁ NO CONTROLE DE REPETIÇÃO PORÉM
  *ESSE CONTROLE FALHA POIS DIFERE MAIUSCULO DE MINUSCULO E ESPAÇO.*/
 
-package br.geekuniversity.secao19_;
+package br.geekuniversity.secao19;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;

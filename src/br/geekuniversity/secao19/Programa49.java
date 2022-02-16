@@ -3,7 +3,7 @@
  *Não aceita chaves duplicadas, porém se tiver chave diferente
  *é aceito mesmo com valores duplicados.*/
 
-package br.geekuniversity.secao19_;
+package br.geekuniversity.secao19;
 import java.util.HashMap;
 import java.util.Map;
 

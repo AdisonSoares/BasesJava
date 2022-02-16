@@ -7,7 +7,7 @@
  *OBS - A MELHOR FORMA DE DECLARAR UM ARRAY LIST É COMO LIST(INTERFACE), 
  *POIS DEPOIS PODE SER TROCADO O TIPO DE ARRAY PARA LINKED (CLASSE)*/
 
-package br.geekuniversity.secao19_;
+package br.geekuniversity.secao19;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

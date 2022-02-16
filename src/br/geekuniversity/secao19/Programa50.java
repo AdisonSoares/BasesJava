@@ -6,7 +6,7 @@
  *-Coleção de valores;
  *-Coleção de associações;*/
 
-package br.geekuniversity.secao19_;
+package br.geekuniversity.secao19;
 
 import java.util.Collection;
 import java.util.HashMap;
