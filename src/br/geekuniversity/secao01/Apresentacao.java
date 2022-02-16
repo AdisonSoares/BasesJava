@@ -1,4 +1,4 @@
-package br.geekuniversity.secao01_;
+package br.geekuniversity.secao01;
 
 public class Apresentacao {
 	
