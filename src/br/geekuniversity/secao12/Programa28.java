@@ -1,10 +1,11 @@
 
 //Herança
-package br.geekuniversity.secao12_;
+package br.geekuniversity.secao12;
 
 import br.geekuniversity.secao12.Aluno;
 import br.geekuniversity.secao12.Professor;
 
+@SuppressWarnings("unused")
 public class Programa28 {
 
 	public static void main(String[] args) {

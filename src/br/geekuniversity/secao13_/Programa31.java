@@ -12,7 +12,7 @@
 
 package br.geekuniversity.secao13_;
 
-import br.geekuniversity.secao12_.Aluno;
+import br.geekuniversity.secao12.Aluno;
 
 public class Programa31 {
 

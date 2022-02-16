@@ -1,7 +1,8 @@
-package br.geekuniversity.secao12_;
+package br.geekuniversity.secao12;
 
 import br.geekuniversity.secao12.Pessoa;
 
+@SuppressWarnings("unused")
 public class Professor extends Pessoa{
 	private String matricula;
 	

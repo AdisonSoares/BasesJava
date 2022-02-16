@@ -1,7 +1,7 @@
 /*A função toString retorna, por padrão o endereço de memória
  *referenciado da classe.*/
 
-package br.geekuniversity.secao12_;
+package br.geekuniversity.secao12;
 
 //Classe abstrata
 public abstract class Pessoa {
