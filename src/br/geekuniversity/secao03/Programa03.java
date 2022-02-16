@@ -4,7 +4,7 @@
  * @author Positivo
  *
  */
-package br.geekuniversity.secao03_;
+package br.geekuniversity.secao03;
 public class Programa03 {
 	//Essa função que torna a classe java em um programa java
 	//Método de entrada um Array de String chamado "args"

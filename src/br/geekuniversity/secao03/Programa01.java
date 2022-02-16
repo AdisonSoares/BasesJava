@@ -11,7 +11,7 @@
  * @author Positivo
  *
  */
-package br.geekuniversity.secao03_;
+package br.geekuniversity.secao03;
 public class Programa01 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
