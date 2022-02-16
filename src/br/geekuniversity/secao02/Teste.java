@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao02_;
+package br.geekuniversity.secao02;
 public class Teste {
 
 	public static void main(String[] args) {
