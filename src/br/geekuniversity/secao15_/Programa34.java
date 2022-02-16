@@ -2,9 +2,9 @@
 /*Atributos estáticos são atributos, onde os valores são compartilhados
 **entre as instancias da classe, mesmo dentro de outra classe precisa instanciar.*/
 
-package br.geekuniversity.secao15;
+package br.geekuniversity.secao15_;
 
-import br.geekuniversity.secao15.Conta;
+import br.geekuniversity.secao15_.Conta;
 
 @SuppressWarnings("unused")
 public class Programa34 {

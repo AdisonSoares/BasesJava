@@ -3,9 +3,9 @@
 **para ser utilizado.
 **Exemplo: nomeDaClasse.metodo(){}*/
 
-package br.geekuniversity.secao15;
+package br.geekuniversity.secao15_;
 
-import br.geekuniversity.secao15.Conta;
+import br.geekuniversity.secao15_.Conta;
 
 @SuppressWarnings("unused")
 public class Programa35 {
