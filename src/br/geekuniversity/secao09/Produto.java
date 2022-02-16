@@ -22,7 +22,7 @@
   A diferença entre uma função e um método é que um método faz parte de uma classe
   a função é solta, não depende de uma classe.*/
 
-package br.geekuniversity.secao09_;
+package br.geekuniversity.secao09;
 public class Produto {
 	String nome;
 	float preco;

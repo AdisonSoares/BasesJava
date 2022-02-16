@@ -13,10 +13,11 @@
   o construtor ao instanciar no programa principal, a menos que se faça um construtor
   com parametros e outro sem, ou seja, que se tenha dois métodos construtores.*/
 
-package br.geekuniversity.secao09_;
+package br.geekuniversity.secao09;
 
 import br.geekuniversity.secao09.Pessoa;
 
+@SuppressWarnings("unused")
 public class Programa23 {
 	public static void main(String[] args) {
 		Pessoa pessoa1 = new Pessoa();

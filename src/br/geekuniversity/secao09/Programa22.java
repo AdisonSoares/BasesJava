@@ -23,11 +23,12 @@
   Por padrão, a JVM - Java Virtual Machine cria, em tempo de construção, um
   construtor vazio(sem parâmetros) padrão.*/
 
-package br.geekuniversity.secao09_;
+package br.geekuniversity.secao09;
 
 import br.geekuniversity.secao09.Pessoa;
 import br.geekuniversity.secao09.Produto;
 
+@SuppressWarnings("unused")
 public class Programa22 {
 	public static void main(String[] args) {
 

@@ -16,7 +16,7 @@
   Os parâmetros são os atributos discriminados na classe.
   O this fala do próprio objeto da classe.*/
 
-package br.geekuniversity.secao09_;
+package br.geekuniversity.secao09;
 public class Pessoa {
 	
 	String nome,email;
