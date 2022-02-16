@@ -6,7 +6,7 @@
  *
  */
 
-package br.geekuniversity.secao08_;
+package br.geekuniversity.secao08;
 public class Programa21 {
 	public static void main(String[] args) {
 		int valor1 = 6, valor2 = 4, res;

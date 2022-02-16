@@ -23,7 +23,7 @@
  Varivel global fica acessível em toda a classe e precisa ter o acesso estatico
 */
 
-package br.geekuniversity.secao08_;
+package br.geekuniversity.secao08;
 import java.util.Scanner;
 public class Programa20 {
 	static String frutas[];
