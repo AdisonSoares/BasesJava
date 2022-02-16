@@ -1,6 +1,6 @@
 /*Tratando exceções com Try Catch e finally*/
 
-package br.geekuniversity.secao16_;
+package br.geekuniversity.secao16;
 
 public class Programa36 {
 

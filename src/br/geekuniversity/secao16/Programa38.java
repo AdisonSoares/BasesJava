@@ -3,7 +3,7 @@
  *Deixando no catch apenas o Exception já é feita uma análise completa.
  *É possivel colocar mais de uma tentativa(catch). */
 
-package br.geekuniversity.secao16_;
+package br.geekuniversity.secao16;
 
 import java.util.Scanner;
 
