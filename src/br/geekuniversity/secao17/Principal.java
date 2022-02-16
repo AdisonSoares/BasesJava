@@ -1,7 +1,7 @@
 /*Gerando executáveis com jar.
  *JAR - Java Archive (Arquivo compactado java).*/
 
-package br.geekuniversity.secao17_;
+package br.geekuniversity.secao17;
 
 import java.util.Scanner;
 
