@@ -4,11 +4,12 @@
 **O template method permite que as subclasses redefinam certos passos
 **de um algoritmo sem alterar a estrutura do próprio algoritmo.*/
 
-package br.geekuniversity.secao13_;
+package br.geekuniversity.secao13;
 
 import br.geekuniversity.secao13.TreinamentoFimDaTemporada;
 import br.geekuniversity.secao13.TreinamentoInicioDaTemporada;
 
+@SuppressWarnings("unused")
 public class Programa32 {
 
 	public static void main(String[] args) {

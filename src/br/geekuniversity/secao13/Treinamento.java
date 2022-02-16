@@ -5,7 +5,7 @@
 **não pode ser extendido/reescrito, ele deixa o método ou variável sem
 **possibilidade de modificação por outras classes.*/
 
-package br.geekuniversity.secao13_;
+package br.geekuniversity.secao13;
 public abstract class Treinamento {
 	
 	//Template Method

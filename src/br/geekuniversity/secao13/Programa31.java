@@ -10,7 +10,7 @@
 **Implemento são os comandos do método, que fica depois das chaves.
 **Exemplo: public abstract void outra_mensagem(String texto);*/
 
-package br.geekuniversity.secao13_;
+package br.geekuniversity.secao13;
 
 import br.geekuniversity.secao12.Aluno;
 
