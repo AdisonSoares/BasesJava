@@ -6,7 +6,7 @@
  *
  */
 
-package br.geekuniversity.secao07_;
+package br.geekuniversity.secao07;
 public class Programa19 {
 	public static void main(String[] args) {
 		int matriz[][] = new int [3][3];

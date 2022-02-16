@@ -29,7 +29,7 @@
  * 
  */
 
-package br.geekuniversity.secao07_;
+package br.geekuniversity.secao07;
 public class Programa18 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

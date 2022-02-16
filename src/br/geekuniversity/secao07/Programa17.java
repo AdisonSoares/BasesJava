@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao07_;
+package br.geekuniversity.secao07;
 public class Programa17 {
 	public static void main(String[] args) {
 		//Declaração e definição de tamanho do vetor
