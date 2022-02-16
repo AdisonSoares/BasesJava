@@ -7,11 +7,12 @@
  *O método Getter é um método público que serve para consultar dados.
  *A nomenclatura desses métodos é public tipoDeVariável getnomeDoAtributo().
  *O ideal é que todos os atributos de uma classe sejam privados.*/
-package br.geekuniversity.secao11_;
+package br.geekuniversity.secao11;
 
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 
+@SuppressWarnings("unused")
 public class Programa25 {
 	public static void main(String[] args) {
 		Cliente cliente_1 = new Cliente(45, "João de Barro", "Qnl 20, Conj 03, Casa 02");

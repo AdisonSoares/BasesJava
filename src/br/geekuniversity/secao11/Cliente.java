@@ -7,7 +7,7 @@
  * Ao acessar um elemento protected não é preciso método get ou set, nesse caso 
  * o acesso é como um elemento public dentro do pacote.*/
 
-package br.geekuniversity.secao11_;
+package br.geekuniversity.secao11;
 
 import br.geekuniversity.secao11.Cliente;
 

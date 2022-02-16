@@ -6,7 +6,7 @@
  */
 
 package br.geekuniversity.secao01;
-import br.geekuniversity.secao11_.Cliente;
+import br.geekuniversity.secao11.Cliente;
 public class Programa26 {
 
 	public static void main(String[] args) {

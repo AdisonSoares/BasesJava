@@ -4,7 +4,7 @@ package br.geekuniversity.secao19_;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import br.geekuniversity.secao11_.Cliente;
+import br.geekuniversity.secao11.Cliente;
 
 public class Programa47 {
 	@SuppressWarnings("unchecked")

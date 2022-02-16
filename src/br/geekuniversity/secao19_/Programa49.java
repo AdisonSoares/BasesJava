@@ -7,8 +7,8 @@ package br.geekuniversity.secao19_;
 import java.util.HashMap;
 import java.util.Map;
 
-import br.geekuniversity.secao11_.Cliente;
-import br.geekuniversity.secao11_.Conta;
+import br.geekuniversity.secao11.Cliente;
+import br.geekuniversity.secao11.Conta;
 
 public class Programa49 {
 	public static void main(String[] args) {

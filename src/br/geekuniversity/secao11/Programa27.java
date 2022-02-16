@@ -3,10 +3,11 @@
  * a classe pode acessar e modificar ela, não se pode importar para outra classe
  * mesmo estando no mesmo projeto.*/
 
-package br.geekuniversity.secao11_;
+package br.geekuniversity.secao11;
 
 import br.geekuniversity.secao11.Cliente;
 
+@SuppressWarnings("unused")
 public class Programa27 {
 
 	public static void main(String[] args) {

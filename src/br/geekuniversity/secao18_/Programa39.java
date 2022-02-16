@@ -4,8 +4,8 @@
  *A classe Object faz parte do pacote java.lang.*/
 
 package br.geekuniversity.secao18_;
-import br.geekuniversity.secao11_.Cliente;
-import br.geekuniversity.secao11_.Conta;
+import br.geekuniversity.secao11.Cliente;
+import br.geekuniversity.secao11.Conta;
 public class Programa39 extends Object{
 	public static void main(String[] args) {
 		Cliente cli01 = new Cliente(42, "Josoaldo Silva", "SHVP, Ch 40, Lote 30");

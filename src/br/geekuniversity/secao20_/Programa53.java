@@ -1,8 +1,8 @@
 /*Por padrão as threads não são sincronizadas*/
 
 package br.geekuniversity.secao20_;
-import br.geekuniversity.secao11_.Cliente;
-import br.geekuniversity.secao11_.Conta;
+import br.geekuniversity.secao11.Cliente;
+import br.geekuniversity.secao11.Conta;
 public class Programa53 {
 	public static void main(String[] args) {
 		Cliente cliente01 = new Cliente(31, "Celina Xavier", "Quadra 52");

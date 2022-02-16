@@ -1,7 +1,7 @@
 /*O método run vai executar em paralelo e depositar um valor na conta*/
 
 package br.geekuniversity.secao20_;
-import br.geekuniversity.secao11_.Conta;
+import br.geekuniversity.secao11.Conta;
 
 public class FazDeposito implements Runnable{
 	private Conta conta;

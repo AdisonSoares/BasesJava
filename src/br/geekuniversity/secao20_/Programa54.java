@@ -1,7 +1,7 @@
 package br.geekuniversity.secao20_;
 
-import br.geekuniversity.secao11_.Cliente;
-import br.geekuniversity.secao11_.Conta;
+import br.geekuniversity.secao11.Cliente;
+import br.geekuniversity.secao11.Conta;
 
 public class Programa54 {
 	public static void main(String[] args) throws InterruptedException {

@@ -17,16 +17,15 @@
  * a classe pode acessar e modificar ela, não se pode importar para outra classe
  * mesmo estando no mesmo projeto.*/
 
-package br.geekuniversity.secao11_;
+package br.geekuniversity.secao11;
 
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 
+@SuppressWarnings("unused")
 public class Conta {
-	@SuppressWarnings("unused")
 	private int conta;
 	private float saldo, limite;
-	@SuppressWarnings("unused")
 	private Cliente cliente;
 
 	public Conta(int conta, float saldo, float limite, Cliente cliente) {
