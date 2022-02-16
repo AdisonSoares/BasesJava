@@ -15,7 +15,7 @@
   Quando se desenvolve um sistema pode-se utilizar um padrão de projeto, um
   padrão web muito usado é o MVC - Model-View-Controller*/
 
-package br.geekuniversity.secao10_;
+package br.geekuniversity.secao10;
 public class Programa_24 {
 
 }
