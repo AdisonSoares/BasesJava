@@ -5,7 +5,7 @@
  *
  */
 
-package br.geekuniversity.secao05_;
+package br.geekuniversity.secao05;
 
 import java.util.Scanner;
 
