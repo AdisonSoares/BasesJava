@@ -1,4 +1,4 @@
-package br.geekuniversity.secao15_;
+package br.geekuniversity.secao15;
 
 import br.geekuniversity.secao15.Conta;
 

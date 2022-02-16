@@ -2,10 +2,11 @@
 /*Atributos estáticos são atributos, onde os valores são compartilhados
 **entre as instancias da classe, mesmo dentro de outra classe precisa instanciar.*/
 
-package br.geekuniversity.secao15_;
+package br.geekuniversity.secao15;
 
 import br.geekuniversity.secao15.Conta;
 
+@SuppressWarnings("unused")
 public class Programa34 {
 
 	public static void main(String[] args) {
