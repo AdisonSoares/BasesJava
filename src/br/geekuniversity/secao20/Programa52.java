@@ -2,7 +2,7 @@
  *É uma execução em paralelo, é bem utilizado para processos demorados. 
  *Simulação com execução de threads.*/
 
-package br.geekuniversity.secao20_;
+package br.geekuniversity.secao20;
 public class Programa52 {
 	public static void main(String[] args) {
 		BarraDeProgresso barra = new BarraDeProgresso();

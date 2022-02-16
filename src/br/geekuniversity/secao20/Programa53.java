@@ -1,6 +1,6 @@
 /*Por padrão as threads não são sincronizadas*/
 
-package br.geekuniversity.secao20_;
+package br.geekuniversity.secao20;
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 public class Programa53 {
