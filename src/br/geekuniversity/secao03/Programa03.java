@@ -1,17 +1,15 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * FunÁ„o Main
- * @author Positivo
- *
+ * Fun√ß√£o Main
  */
 package br.geekuniversity.secao03;
 public class Programa03 {
-	//Essa funÁ„o que torna a classe java em um programa java
-	//MÈtodo de entrada um Array de String chamado "args"
-	//Quando se clica em play algo que est· dentro da main È executado
-	//O java aceita mais de um mÈtodo main, o que executa È o aberto
+	//Essa fun√ß√£o que torna a classe java em um programa java
+	//M√©todo de entrada um Array de String chamado "args"
+	//Quando se clica em play algo que est√° dentro da main √© executado
+	//O java aceita mais de um m√©todo main, o que executa √© o aberto
 	public static void main(String[] args) {
-		System.out.println("Texto execut·vel");
+		System.out.println("Texto execut√°vel");
 		
 	}
 }
