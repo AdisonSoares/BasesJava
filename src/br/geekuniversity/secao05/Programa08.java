@@ -1,11 +1,8 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * A vari·vel do tipo Scanner vai capturar a informaÁ„o Do While
- * CorreÁ„o do bug do laÁo de repetiÁ„o com String e int
- * @author Positivo
- *
+ * A vari√°vel do tipo Scanner vai capturar a informa√ß√£o Do While
+ * Corre√ß√£o do bug do la√ßo de repeti√ß√£o com String e int
  */
-
 package br.geekuniversity.secao05;
 
 import java.util.Scanner;
