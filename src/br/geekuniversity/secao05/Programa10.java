@@ -1,10 +1,7 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
  * Foreach - Significa "para cada"
- * @author Positivo
- *
  */
-
 package br.geekuniversity.secao05;
 
 public class Programa10 {
@@ -16,7 +13,5 @@ public class Programa10 {
 			System.out.print(letra);
 
 		}
-
 	}
-
 }
