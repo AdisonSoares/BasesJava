@@ -1,10 +1,7 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
  * Tipos boleanos
- * @author Positivo
- *
  */
-
 package br.geekuniversity.secao06;
 public class Programa14 {
 
@@ -13,7 +10,7 @@ public class Programa14 {
 		boolean verdadeiro=true;
 		boolean falso=false;
 		
-		//Tipos não primitivos
+		//Tipos nÃ£o primitivos
 		Boolean v=true;
 		Boolean f=false;
 		
@@ -22,20 +19,20 @@ public class Programa14 {
 		System.out.println("V "+v);
 		System.out.println("F "+f);
 		
-		//OBS - Não existe um tamanho pois só existem dois valores, verdadeiro ou falso
-		//Usa-se o boleanos para funções
+		//OBS - NÃ£o existe um tamanho pois sÃ³ existem dois valores, verdadeiro ou falso
+		//Usa-se o boleanos para funÃ§Ãµes
 		
-		//Exemplos de funções
+		//Exemplos de funÃ§Ãµes
 		if(verdadeiro) {
-			System.out.println("É verdadeiro");
+			System.out.println("Ã‰ verdadeiro");
 		}else {
-			System.out.println("É falso");
+			System.out.println("Ã‰ falso");
 		}
 		//-----------------------------//
 		/*if(1==1) {
-			System.out.println("É verdadeiro");
+			System.out.println("Ã‰ verdadeiro");
 		}else {
-			System.out.println("É falso");
+			System.out.println("Ã‰ falso");
 		}
 		*/
 		//-----------------------------//
@@ -45,7 +42,5 @@ public class Programa14 {
 		}else {
 			System.out.println("Acesso negado ao sistema");
 		}
-		
 	}
-
 }
