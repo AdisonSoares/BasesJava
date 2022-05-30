@@ -1,5 +1,5 @@
-package br.geekuniversity.secao25.model;
-import br.geekuniversity.secao25.helper.Utils;
+package br.geekuniversity.secao250.model;
+import br.geekuniversity.secao250.helper.Utils;
 
 /**
  * @Projeto_mercado

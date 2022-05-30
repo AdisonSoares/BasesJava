@@ -1,6 +1,6 @@
-package br.geekuniversity.secao26.model;
+package br.geekuniversity.secao25.model;
 
-import br.geekuniversity.secao26.helper.Utils;
+import br.geekuniversity.secao25.helper.Utils;
 
 /**
  * @Projeto_banco

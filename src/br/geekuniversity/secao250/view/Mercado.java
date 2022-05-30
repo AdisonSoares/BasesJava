@@ -1,6 +1,6 @@
-package br.geekuniversity.secao25.view;
-import br.geekuniversity.secao25.helper.Utils;
-import br.geekuniversity.secao25.model.Produto;
+package br.geekuniversity.secao250.view;
+import br.geekuniversity.secao250.helper.Utils;
+import br.geekuniversity.secao250.model.Produto;
 
 import java.util.*;
 

@@ -1,5 +1,5 @@
-package br.geekuniversity.secao25.view;
-import br.geekuniversity.secao25.model.Produto;
+package br.geekuniversity.secao250.view;
+import br.geekuniversity.secao250.model.Produto;
 
 /**
  * @Projeto_mercado
