@@ -1,13 +1,10 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
  * Tipos de dados alfanumericos
  * Caracteres e Strings
- * OBS - Strings n„o possuem ocupaÁ„o fixa de memÛria pois
- * s„o um tipo de alocaÁ„o em vetor de memÛria
- * @author Positivo
- *
+ * OBS - Strings n√£o possuem ocupa√ß√£o fixa de mem√≥ria pois
+ * s√£o um tipo de aloca√ß√£o em vetor de mem√≥ria
  */
-
 package br.geekuniversity.secao06;
 public class Programa13 {
 	@SuppressWarnings("unused")
@@ -15,22 +12,22 @@ public class Programa13 {
 		
 		//Tipos primitivos
 		char letra1 = 'a';//Armazena a letra, representado por aspas simples
-		char letra2 = 97;//Armazena um cÛdigo da tabela ask
+		char letra2 = 97;//Armazena um c√≥digo da tabela ask
 		
 		System.out.println("letra "+letra1);//Retorna a letra armazenada
 		System.out.println("letra "+letra2);//Retorna o codigo correspondente a 97 da tab ask
 		
-		letra2=(char)(letra2+1);// Uso do cast para dizer que tudo È do tipo char
+		letra2=(char)(letra2+1);// Uso do cast para dizer que tudo √© do tipo char
 		
 		System.out.println("letra "+letra2);//Retorna o codigo correspondente a 98 da tab ask
 		
 		
-		//Tipos n„o primitivos
+		//Tipos n√£o primitivos
 		Character letra3='A';//Armazena a letra, representado por aspas simples
-		String nome="Joanino";//Aspas duplas È String, n„o existe tipo primitivo
+		String nome="Joanino";//Aspas duplas √© String, n√£o existe tipo primitivo
 		
 		System.out.println("letra "+letra3);//Retorna a letra armazenada
-		System.out.println("char/Character ocupa "+Character.SIZE+" bits na memÛria");//OcupaÁ„o em memÛria
+		System.out.println("char/Character ocupa "+Character.SIZE+" bits na mem√≥ria");//Ocupa√ß√£o em mem√≥ria
 	}
 }
 
