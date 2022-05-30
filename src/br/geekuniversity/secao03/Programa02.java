@@ -1,19 +1,17 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
  * Compilador e Bytecode
- * @author Positivo
- *
  */
 
 package br.geekuniversity.secao03;
 public class Programa02 {
 
 	public static void main(String[] args) {
-		//Declarando e inicializando vari·vel
+		//Declarando e inicializando vari√°vel
 		int idade=28;
 		System.out.println("Eu tenho"+idade+" anos");
 		
 		//Para compilar (javac Programa.java->Programa.class->java programa
-		//CÛdigo fonte (Programa Java)->bytecode(Programa.class)->execut·vel
+		//C√≥digo fonte (Programa Java)->bytecode(Programa.class)->execut√°vel
 	}
 }
