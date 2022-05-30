@@ -1,16 +1,58 @@
-package br.geekuniversity.secao25.view;
+package br.geekuniversity.secao26.view;
 
-import br.geekuniversity.secao25.model.Produto;
+import br.geekuniversity.secao26.helper.Utils;
+import br.geekuniversity.secao26.model.Cliente;
+import br.geekuniversity.secao26.model.Conta;
 
 /**
- * @Projeto_mercado
+ * @Projeto_banco
  */
 public class Teste {
     public static void main(String[] args) {
-        Produto pcDell = new Produto("Dell Inspiron", 3049.00);
-        Produto pcIntel = new Produto("Intel Core I5", 1310.00);
+        Cliente bruno = new Cliente(
+                "Bruno Silva",
+                "brun38@gmail.com",
+                "123.456.963.41",
+                Utils.stringParaData("18/02/1984"));
 
-        System.out.println(pcDell);
-        System.out.println(pcIntel);
+
+        Cliente veronica = new Cliente(
+                "Veronica Rocha",
+                "vera8@gmail.com",
+                "147.258.369.74",
+                Utils.stringParaData("12/07/1996"));
+
+        //Criacao
+        Conta conta101 = new Conta(bruno);
+        Conta conta102 = new Conta(veronica);
+
+        //Deposito
+        conta101.depositar(500.00);
+        conta102.depositar(500.00);
+
+        //Exibir
+        System.out.println(conta101+"\n");
+        System.out.println(conta102+"\n");
+
+        //Saque
+        conta101.sacar(300.00);
+
+        //Exibir
+        System.out.println(conta101+"\n");
+        System.out.println(conta102+"\n");
+
+        //Limite
+        conta101.setLimite(200.00);
+
+        //Exibir
+        System.out.println(conta101+"\n");
+        System.out.println(conta102+"\n");
+
+        //Transferencia
+        conta102.transferir(conta101, 50.0);
+
+        //Exibir
+        System.out.println(conta101+"\n");
+        System.out.println(conta102+"\n");
     }
 }
