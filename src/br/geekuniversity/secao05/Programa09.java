@@ -1,10 +1,8 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * LaÁo For
- * @author Positivo
+ * La√ßo For
  *
  */
-
 package br.geekuniversity.secao05;
 
 import java.util.Scanner;
@@ -15,7 +13,7 @@ public class Programa09 {
 		int idade = 1;
 		String nome;
 
-		// Vari·vel de controle; condiÁ„o de parada; forma de incremento
+		// Vari√°vel de controle; condi√ß√£o de parada; forma de incremento
 		for (int i = 0; i < 2; i++) {
 			System.out.println("Informe seu nome");
 			nome = sc.nextLine();
@@ -28,8 +26,6 @@ public class Programa09 {
 			System.out.println();
 
 			sc.close();
-
 		}
 	}
-
 }
