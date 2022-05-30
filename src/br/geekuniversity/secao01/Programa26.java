@@ -1,7 +1,6 @@
 /*Documentação com Javadoc:*/
 /**
  * Ao se fazer uso de um atributo public de outro pacote é preciso importar
- *
  */
 
 package br.geekuniversity.secao01;
@@ -14,8 +13,5 @@ public class Programa26 {
 		/*System.out.println("Cliente: " + cli.nome);*/
 		//System.out.println("Endereço: " + cli.endereco);
 		System.out.println(cli.getEndereco());
-		
-
 	}
-
 }
