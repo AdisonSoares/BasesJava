@@ -1,10 +1,7 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
- * Instrução Switch case
- * @author Positivo
- *
+ * InstruÃ§Ã£o Switch case
  */
-
 package br.geekuniversity.secao04;
 public class Programa06 {
 	public static void main(String[] args) {
@@ -12,16 +9,16 @@ public class Programa06 {
 		
 		switch (numero) {
 			case 1:
-				System.out.println("O número é 1");
+				System.out.println("O nÃºmero Ã© 1");
 				break;
 			case 3:
-				System.out.println("O número é 3");
+				System.out.println("O nÃºmero Ã© 3");
 				break;
 			case 5:
-				System.out.println("O número é 5");
+				System.out.println("O nÃºmero Ã© 5");
 				break;
 			default:
-				System.out.println("O número é "+numero);
+				System.out.println("O nÃºmero Ã© "+numero);
 				break;
 		}
 	}
