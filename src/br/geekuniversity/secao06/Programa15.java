@@ -1,10 +1,7 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * OperaÁıes matematicas
- * @author Positivo
- *
+ * Opera√ß√µes matematicas
  */
-
 package br.geekuniversity.secao06;
 public class Programa15 {
 	public static void main(String[] args) {
@@ -16,35 +13,35 @@ public class Programa15 {
 		res1=num1+num2;
 		System.out.println("A soma de"+num1+"+ "+num2+"= "+res1);
 		
-		//SubtraÁ„o
+		//Subtra√ß√£o
 		res1=num1-num2;
-		System.out.println("A subtraÁ„o de"+num1+"- "+num2+"= "+res1);
+		System.out.println("A subtra√ß√£o de"+num1+"- "+num2+"= "+res1);
 		
-		//MultiplicaÁ„o
+		//Multiplica√ß√£o
 		res1=num1*num2;
-		System.out.println("A multiplicaÁ„o de"+num1+"x "+num2+"= "+res1);
+		System.out.println("A multiplica√ß√£o de"+num1+"x "+num2+"= "+res1);
 		
-		//Divis„o
+		//Divis√£o
 		//Inteira
 		res1=num1/num2;
-		System.out.println("A divis„o de"+num1+"/ "+num2+"= "+res1);
+		System.out.println("A divis√£o de"+num1+"/ "+num2+"= "+res1);
 		
-		//Divis„o
+		//Divis√£o
 		//Real
 		res2=num1/num2;
-		System.out.println("A divis„o de"+num1+"/ "+num2+"= "+res2);
+		System.out.println("A divis√£o de"+num1+"/ "+num2+"= "+res2);
 		
-		//Divis„o
+		//Divis√£o
 		//Real
 		res2=(float)num1/(float)num2;//Cast - considere num1 e num2 como float
-		System.out.println("A divis„o de"+num1+"/ "+num2+"= "+res2);
+		System.out.println("A divis√£o de"+num1+"/ "+num2+"= "+res2);
 		
-		//MÛdulo
-		res1=num1%2;//Resto da divis„o de num1 por 2,, se for 0 È par se for 1 È Ìmpar
-		System.out.println("O resto da divis„o de"+num1+"por 2 = "+res1);
+		//M√≥dulo
+		res1=num1%2;//Resto da divis√£o de num1 por 2,, se for 0 √© par se for 1 √© √≠mpar
+		System.out.println("O resto da divis√£o de"+num1+"por 2 = "+res1);
 		
 		//-----------------------//
-		res1=num1%3;//Saber se num1 È divisivel por 3, se for 0 È se for 1 n„o È
-		System.out.println("O resto da divis„o de"+num1+"por 2 = "+res1); 		
+		res1=num1%3;//Saber se num1 √© divisivel por 3, se for 0 √© se for 1 n√£o √©
+		System.out.println("O resto da divis√£o de"+num1+"por 2 = "+res1); 		
 	}
 }
