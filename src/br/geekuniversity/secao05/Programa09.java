@@ -1,7 +1,6 @@
 /*Documentação por Javadoc:*/
 /**
  * Laço For
- *
  */
 package br.geekuniversity.secao05;
 
