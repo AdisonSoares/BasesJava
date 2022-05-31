@@ -1,28 +1,24 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * FunÁıes ou MÈtodos parte 1
+ * Fun√ß√µes ou M√©todos parte 1
  * 
- * Uma funÁ„o deve ter:
- * a)Tipo de retorno(Tipo de dado que a funÁ„o retorna).
- * b)Nome - Corresponde a aÁ„o que o mÈtodo/funÁ„o realiza.
- * c)Par‚metros/Argumentos de entrada(Opcional).
- * d)Retorno de acordo com o tipo de funÁ„o ou mÈtodo
- * (Sem retorno em void e obrigatÛrio para outro tipo).
- * 
- * @author Positivo
- *
+ * Uma fun√ß√£o deve ter:
+ * a)Tipo de retorno(Tipo de dado que a fun√ß√£o retorna).
+ * b)Nome - Corresponde a a√ß√£o que o m√©todo/fun√ß√£o realiza.
+ * c)Par√¢metros/Argumentos de entrada(Opcional).
+ * d)Retorno de acordo com o tipo de fun√ß√£o ou m√©todo
+ * (Sem retorno em void e obrigat√≥rio para outro tipo).
  */
 
-/*FaÁa um programa que receba diversos nomes
- de frutas do usu·rio e no final imprima essas
- frutas em ordem contr·ria. O programa deve solicitar
- ao usu·rio quantas frutas ele quer informar. 
+/*Fa√ßa um programa que receba diversos nomes
+ de frutas do usu√°rio e no final imprima essas
+ frutas em ordem contr√°ria. O programa deve solicitar
+ ao usu√°rio quantas frutas ele quer informar. 
  OBS - Void significa vazio, sem retorno
  OBS - Atalho para identar tudo CTRL+SHIFT+F
  OBS - Atalho para organizar os imports CTRL+SHIFT+O
- Varivel global fica acessÌvel em toda a classe e precisa ter o acesso estatico
+ Varivel global fica acess√≠vel em toda a classe e precisa ter o acesso estatico
 */
-
 package br.geekuniversity.secao08;
 import java.util.Scanner;
 public class Programa20 {
@@ -42,7 +38,7 @@ public class Programa20 {
 	static void cadastrar_dados(int qtd) {
 		frutas = new String[qtd];
 		for (int i = 0; i < frutas.length; i++) {
-			System.out.println("Informe a " + (i + 1) + "∫ fruta");
+			System.out.println("Informe a " + (i + 1) + "¬∫ fruta");
 			frutas[i] = sc.nextLine();
 		}
 	}
