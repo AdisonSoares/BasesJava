@@ -1,19 +1,17 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
  * Pacotes
- * @author Positivo
- *
  */
 
-/*Pacotes servem para organizar o cÛdigo fonte do projeto, 
+/*Pacotes servem para organizar o c√≥digo fonte do projeto, 
   eles indicam onde determinado arquivo do projeto se encontra.
-  Os nomes de pacotes devem ser em letras min˙sculas, sem espaÁo,
-  sem caractere especial,sem acentuaÁ„o.
-  Por convenÁ„o, È utilizado nos nomes de pacotes o domÌnio da empresa
-  criadora do projeto ao contr·rio, sendo a ultima parte do nome o
+  Os nomes de pacotes devem ser em letras min√∫sculas, sem espa√ßo,
+  sem caractere especial,sem acentua√ß√£o.
+  Por conven√ß√£o, √© utilizado nos nomes de pacotes o dom√≠nio da empresa
+  criadora do projeto ao contr√°rio, sendo a ultima parte do nome o
   especificador do pacote.
-  Quando se desenvolve um sistema pode-se utilizar um padr„o de projeto, um
-  padr„o web muito usado È o MVC - Model-View-Controller*/
+  Quando se desenvolve um sistema pode-se utilizar um padr√£o de projeto, um
+  padr√£o web muito usado √© o MVC - Model-View-Controller*/
 
 package br.geekuniversity.secao10;
 public class Programa_24 {
