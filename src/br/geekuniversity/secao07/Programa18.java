@@ -1,4 +1,4 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
  * Matriz parte 1
  * @author Positivo
@@ -28,20 +28,19 @@
  * matriz[2][2]=9;
  * 
  */
-
 package br.geekuniversity.secao07;
 public class Programa18 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		//Declaração e definição de tamanho
+		//DeclaraÃ§Ã£o e definiÃ§Ã£o de tamanho
 		int matriz[][] = new int[3][3];
 		
-		//Declaração apenas
+		//DeclaraÃ§Ã£o apenas
 		int matriz2[][];
 		
 		//Declarar, definir o tamanho e inicializar
 		//matriz[3][3]
-		//Três linhas e três colunas
+		//TrÃªs linhas e trÃªs colunas
 		int matriz3[][] = {{1,2,3},{4,5,6},{7,8,9}};
 		
 		//Declarando uma matriz informando apenas as linhas
