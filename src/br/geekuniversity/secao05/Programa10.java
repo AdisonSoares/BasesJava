@@ -11,7 +11,6 @@ public class Programa10 {
 		// Para cada um dos caracteres da strig, imprima o caractere
 		for (char letra : nome.toCharArray()) {
 			System.out.print(letra);
-
 		}
 	}
 }
