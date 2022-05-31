@@ -1,14 +1,13 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
  * Vetores parte 2
- * @author Positivo
- *
+ * OBS - O length exibe o tamanho da variÃ¡vel atribuÃ­da antes do ponto
+ * Para comentar uma linha ou todas as linhas basta selecionar com o mouse e aperta ctrl+barra
  */
-
 package br.geekuniversity.secao07;
 public class Programa17 {
 	public static void main(String[] args) {
-		//Declaração e definição de tamanho do vetor
+		//DeclaraÃ§Ã£o e definiÃ§Ã£o de tamanho do vetor
 		int numeros[] = new int [10];
 		
 		System.out.println("Tamanho do vetor "+numeros.length);
@@ -18,32 +17,28 @@ public class Programa17 {
 		}
 	
 		System.out.println(numeros[0]);//Primeiro elemento
-		System.out.println(numeros[9]);//Último elemento
+		System.out.println(numeros[9]);//Ãšltimo elemento
 		
-		//Acrescentar valores randômicos
-		//Função round recebe double e converte(arredonda) para int
-		//Ao gerar os números aleatórios(randômicos) ele é multiplicado por 10
+		//Acrescentar valores randÃ´micos
+		//FunÃ§Ã£o round recebe double e converte(arredonda) para int
+		//Ao gerar os nÃºmeros aleatÃ³rios(randÃ´micos) ele Ã© multiplicado por 10
 		for(int i = 0; i<numeros.length; i++) {
 			numeros[i]=(int)Math.round(Math.random()*10);
 		}
 		
 		System.out.println(numeros[0]);//Primeiro elemento
-		System.out.println(numeros[9]);//Último elemento
+		System.out.println(numeros[9]);//Ãšltimo elemento
 		
-		//A função random retorna um nº fracional entre 0 e 1
+		//A funÃ§Ã£o random retorna um nÂº fracional entre 0 e 1
 		System.out.println(Math.random());
 		
 		//Foreatch
 		//Para cada inteiro dentro de que chamo de i dentro de numeros
 		//Imprima i
-		//Não tem condições de parada, ao contrato do laço for
-		//Vai mostrar até o limite do vetor
+		//NÃ£o tem condiÃ§Ãµes de parada, ao contrato do laÃ§o for
+		//Vai mostrar atÃ© o limite do vetor
 		for (int i : numeros) {
 			System.out.println(i);
 		}
 	}
-
-	//OBS - O length exibe o tamanho da variável atribuída antes do ponto
-	//Para comentar uma linha ou todas as linhas basta selecionar com o mouse e aperta ctrl+barra
-	
 }
