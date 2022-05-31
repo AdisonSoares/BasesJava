@@ -1,11 +1,8 @@
-/*Documentação por Javadoc:*/
+/*DocumentaÃ§Ã£o por Javadoc:*/
 /**
  * Matriz parte 2
- * OBS - O laço i cobre os valores da linha e o laço j os valores da coluna da matriz
- * @author Positivo
- *
+ * OBS - O laÃ§o i cobre os valores da linha e o laÃ§o j os valores da coluna da matriz
  */
-
 package br.geekuniversity.secao07;
 public class Programa19 {
 	public static void main(String[] args) {
