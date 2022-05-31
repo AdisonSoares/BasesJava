@@ -27,8 +27,7 @@ codificação passo a passo  de exemplos.
 - Threads (Programação Paralela);
 -  Estruturas de Dados (Fila, Pilha, Listas Ligadas e etc);
 - Projeto 1 - Game;
-- Projeto 2 - Mercado;
-- Projeto 3 - Banco;
+- Projeto 2 - Banco;
 
 <h4 align="center"> 
 	🚧  Em construção...  🚧
