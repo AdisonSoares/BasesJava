@@ -1,11 +1,8 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 //
 /**
- * FunÁıes ou MÈtodos parte 2
- * @author Positivo
- *
+ * Fun√ß√µes ou M√©todos parte 2
  */
-
 package br.geekuniversity.secao08;
 public class Programa21 {
 	public static void main(String[] args) {
@@ -21,7 +18,7 @@ public class Programa21 {
 		
 	}
 	private static String mensagem() {
-		return "Ol· usu·rio";
+		return "Ol√° usu√°rio";
 	}
 
 	private static int soma(int valor1, int valor2) {
