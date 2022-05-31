@@ -1,26 +1,24 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * Classes, Atributos e MÈtodos
- * @author Positivo
- *
+ * Classes, Atributos e M√©todos
  */
 
-/*Atributos s„o caracteristicas da classe/modelo/modelo de dados.
-  Podemos entender atributos como vari·veis da classe.
-  Outra forma de nomear os atributos È chamando-os de estados.
-  Atributos s„o nomeados em letras min˙sculas, sem espaÁo, sem 
-  caracteres especiais, sem acentuaÁ„o.
-  O nome de uma vari·vel pode ser iniciada apenas com letras e underline.
-  Podemos entender os mÈtodos como a aÁ„o que È realizada por um objeto da classe.
-  Os mÈtodos s„o comportamentos dos objetos da classe.
-  Para nomear mÈtodos/comportamento de uma classe usa-se os mesmos requisitos das
-  funÁıes:
-  a)Tipo de retorno(Tipo de dado que a funÁ„o vai retornar)
-  b)Nome - Corresponde a aÁ„o que a funÁ„o realiza
-  c)Par‚metro/Argumentos de entrada (opcional)
+/*Atributos s√£o caracteristicas da classe/modelo/modelo de dados.
+  Podemos entender atributos como vari√°veis da classe.
+  Outra forma de nomear os atributos √© chamando-os de estados.
+  Atributos s√£o nomeados em letras min√∫sculas, sem espa√ßo, sem 
+  caracteres especiais, sem acentua√ß√£o.
+  O nome de uma vari√°vel pode ser iniciada apenas com letras e underline.
+  Podemos entender os m√©todos como a a√ß√£o que √© realizada por um objeto da classe.
+  Os m√©todos s√£o comportamentos dos objetos da classe.
+  Para nomear m√©todos/comportamento de uma classe usa-se os mesmos requisitos das
+  fun√ß√µes:
+  a)Tipo de retorno(Tipo de dado que a fun√ß√£o vai retornar)
+  b)Nome - Corresponde a a√ß√£o que a fun√ß√£o realiza
+  c)Par√¢metro/Argumentos de entrada (opcional)
   d)Retorno (Opcional - depende do tipo de retorno).
-  A diferenÁa entre uma funÁ„o e um mÈtodo È que um mÈtodo faz parte de uma classe
-  a funÁ„o È solta, n„o depende de uma classe.*/
+  A diferen√ßa entre uma fun√ß√£o e um m√©todo √© que um m√©todo faz parte de uma classe
+  a fun√ß√£o √© solta, n√£o depende de uma classe.*/
 
 package br.geekuniversity.secao09;
 public class Produto {
@@ -29,11 +27,10 @@ public class Produto {
 	float desconto;
 	
 	/**
-	 * MÈtodo para aumentar o preÁo do produto
+	 * M√©todo para aumentar o pre√ßo do produto
 	 * @param valor a ser acrescentado
 	 */
 	void aumentar_preco(float valor) {
 		this.preco=this.preco+valor;
 	}
-
 }
