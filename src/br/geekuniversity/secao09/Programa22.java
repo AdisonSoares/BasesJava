@@ -1,27 +1,25 @@
-/*DocumentaÁ„o por Javadoc:*/
+/*Documenta√ß√£o por Javadoc:*/
 /**
- * CriaÁ„o de objetos e Construtor
- * @author Positivo
- *
+ * Cria√ß√£o de objetos e Construtor
  */
 
-/*Objetos s„o produtos/instancias da classe, a partir de uma classe
-  È criado um objeto.
+/*Objetos s√£o produtos/instancias da classe, a partir de uma classe
+  √© criado um objeto.
   Para se criar um objeto primeiro inicia com o tipo do objeto depois o nome
-  que se quer deixar para esse objeto depois declara que È um novo tipo de objeto.
-  No momento em que um objeto È declarado e inicializado/instanciado o programa separa
-  um local da memÛria para guardar a informaÁ„o.
-  Caso um objeto seja apenas declarado n„o existe a alocaÁ„o de momÛria.
-  No exemplo abaixo o p0 È a inst‚ncia do objeto ou objeto,ou seja,
-  o p0 È uma instancia/objeto da classe Produto.
-  OBS - Quando se coloca um valor com ponto em uma vari·vel de tipo flutuante precisa
-  colocar f no final no n˙mero, caso n„o tenha ponto ele converte autom·tico para float.
-  Construtor È um mÈtodo especial que constroe o objeto/inst‚ncia.
-  Por ser um mÈtodo tambÈm pode ser chamado de MÈtodo Construtor.
+  que se quer deixar para esse objeto depois declara que √© um novo tipo de objeto.
+  No momento em que um objeto √© declarado e inicializado/instanciado o programa separa
+  um local da mem√≥ria para guardar a informa√ß√£o.
+  Caso um objeto seja apenas declarado n√£o existe a aloca√ß√£o de mom√≥ria.
+  No exemplo abaixo o p0 √© a inst√¢ncia do objeto ou objeto,ou seja,
+  o p0 √© uma instancia/objeto da classe Produto.
+  OBS - Quando se coloca um valor com ponto em uma vari√°vel de tipo flutuante precisa
+  colocar f no final no n√∫mero, caso n√£o tenha ponto ele converte autom√°tico para float.
+  Construtor √© um m√©todo especial que constroe o objeto/inst√¢ncia.
+  Por ser um m√©todo tamb√©m pode ser chamado de M√©todo Construtor.
   O construtor da classe sempre tem o mesmo nome da classe.
   Pode haver mais de um construtor na classe.
-  Por padr„o, a JVM - Java Virtual Machine cria, em tempo de construÁ„o, um
-  construtor vazio(sem par‚metros) padr„o.*/
+  Por padr√£o, a JVM - Java Virtual Machine cria, em tempo de constru√ß√£o, um
+  construtor vazio(sem par√¢metros) padr√£o.*/
 
 package br.geekuniversity.secao09;
 
@@ -36,10 +34,10 @@ public class Programa22 {
 		Produto p0;
 
 		// Inicializando o objeto
-		p0 = new Produto();// O Protudo(); È o construtor
+		p0 = new Produto();// O Protudo(); √© o construtor
 
 		// Declarando e instanciando/inicializando o objeto
-		Produto p1 = new Produto();// O Protudo(); È o construtor
+		Produto p1 = new Produto();// O Protudo(); √© o construtor
 		
 		
 		p1.nome = "Notebook";
@@ -73,8 +71,5 @@ public class Programa22 {
 		System.out.println(pessoa1.ano_nascimento);
 		System.out.println(pessoa1.email);
 		System.out.println();
-		
-		
-		
 	}
 }
