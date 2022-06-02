@@ -1,11 +1,11 @@
-/*DocumentaÁ„o por Javadoc:*/
 /**
- * Se n„o È colocado um modificador de acesso em um mÈtodo ou atributo ele recebe
- * por padr„o o modificador protected.
+ * Documenta√ß√£o por Javadoc:
+ * Se n√£o √© colocado um modificador de acesso em um m√©todo ou atributo ele recebe
+ * por padr√£o o modificador protected.
  * O modificador Protected(protegido) permite que o elemento seja visivel somente
  * no pacote onde o mesmo foi declarado, mesmo sendo o mesmo projeto.
- * Ao acessar um elemento protected n„o È preciso mÈtodo get ou set, nesse caso 
- * o acesso È como um elemento public dentro do pacote.*/
+ * Ao acessar um elemento protected n√£o √© preciso m√©todo get ou set, nesse caso 
+ * o acesso √© como um elemento public dentro do pacote.*/
 
 package br.geekuniversity.secao11;
 
@@ -25,7 +25,7 @@ public class Cliente implements Comparable{
 
 	/*
 	private void dizer_oi() {
-		System.out.println(this.nome+" est· dizendo ol·");
+		System.out.println(this.nome+" est√° dizendo ol√°");
 	}
 	*/
 	
