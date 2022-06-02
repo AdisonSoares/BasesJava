@@ -1,19 +1,18 @@
 package br.geekuniversity.secao12;
-
 import br.geekuniversity.secao12.Pessoa;
 
 @SuppressWarnings("unused")
 public class Professor extends Pessoa{
 	private String matricula;
 	
-	//Método construtor
+	//MÃ©todo construtor
 	public Professor(String nome, int ano_nascimento, String email, String matricula) {
 		super(nome, ano_nascimento,email);
 		this.matricula = matricula;
 	}
 	public Professor() {}
 	
-	//Métodos Get e Set
+	//MÃ©todos Get e Set
 	public String getMatricula() {
 		return this.matricula;
 	}
@@ -21,12 +20,12 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
-	//Polimorfismo do método toString
+	//Polimorfismo do mÃ©todo toString
 	public String toString() {
 		return super.toString()+"\nMatricula: "+this.matricula;
 	}
 
-	//Método Get com polimorfismo
+	//MÃ©todo Get com polimorfismo
 		public String getNome() {
 			return "GetNome Professor:"+super.getNome();
 	}
