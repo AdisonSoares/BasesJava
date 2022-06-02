@@ -1,4 +1,4 @@
-/*A funÁ„o toString retorna, por padr„o o endereÁo de memÛria
+/*A fun√ß√£o toString retorna, por padr√£o o endere√ßo de mem√≥ria
  *referenciado da classe.*/
 
 package br.geekuniversity.secao12;
@@ -9,7 +9,7 @@ public abstract class Pessoa {
 	private int ano_nascimento;
 	private String email;
 	
-	//MÈtodo construtor
+	//M√©todo construtor
 	public Pessoa(String nome, int ano_nascimento, String email) {
 		this.nome = nome;
 		this.ano_nascimento = ano_nascimento;
@@ -17,7 +17,7 @@ public abstract class Pessoa {
 	}
 	public Pessoa() {}
 	
-	//MÈtodos Get e Set
+	//M√©todos Get e Set
 	public String getEmail() {
 		return email;
 	}
@@ -39,12 +39,11 @@ public abstract class Pessoa {
 		this.ano_nascimento = ano_nascimento;
 	}
 	
-	//MÈtodo toString
+	//M√©todo toString
 	public String toString() {
 		return "Nome: "+this.nome+"\nAno Nascimento: "+this.ano_nascimento;
 	}
 	
-	//DeclaraÁ„o de um mÈtodo abstrato
+	//Declara√ß√£o de um m√©todo abstrato
 	public abstract void outra_mensagem(String texto);
-	
 }
