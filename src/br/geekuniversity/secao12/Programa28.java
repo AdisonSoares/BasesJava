@@ -1,5 +1,4 @@
-
-//Herança
+//HeranÃ§a
 package br.geekuniversity.secao12;
 
 import br.geekuniversity.secao12.Aluno;
@@ -19,7 +18,7 @@ public class Programa28 {
 		System.out.println(aluno.getRegistroAcademico());
 		System.out.println();
 		
-		System.out.println("Uso do método toString com polimorfismo");
+		System.out.println("Uso do mÃ©todo toString com polimorfismo");
 		System.out.println(aluno.toString());
 		System.out.println();
 		
@@ -30,10 +29,8 @@ public class Programa28 {
 		System.out.println(professor.getMatricula());
 		System.out.println();
 		
-		System.out.println("Uso do método toString com polimorfismo");
+		System.out.println("Uso do mÃ©todo toString com polimorfismo");
 		System.out.println(professor.toString());
 		System.out.println();
-
 	}
-
 }
