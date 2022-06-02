@@ -6,14 +6,14 @@ import br.geekuniversity.secao12.Pessoa;
 public class Aluno extends Pessoa{
 	private String registroAcademico;
 	
-	//Método construtor
+	//MÃ©todo construtor
 	public Aluno(String nome, int ano_nascimento,String email, String registroAcademico) {
 		super(nome, ano_nascimento, email);
 		this.registroAcademico = registroAcademico;
 	}
 	public Aluno() {}
 	
-	//Métodos Get e Set
+	//MÃ©todos Get e Set
 	public String getRegistroAcademico() {
 		return this.registroAcademico;
 	}
@@ -22,10 +22,10 @@ public class Aluno extends Pessoa{
 	}
 	
 	/**
-	 * Polimorfismo do método toString
+	 * Polimorfismo do mÃ©todo toString
 	 */
 	public String toString() {
-		return super.toString()+"\nRegistro Acadêmico: "+ this.registroAcademico;
+		return super.toString()+"\nRegistro AcadÃªmico: "+ this.registroAcademico;
 	}
 	
 	@Override
@@ -36,5 +36,4 @@ public class Aluno extends Pessoa{
 		System.out.println(texto);
 		
 	}
-	
 }
