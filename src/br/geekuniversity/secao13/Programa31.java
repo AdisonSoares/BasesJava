@@ -1,25 +1,23 @@
 //Classes abstratas
-/*As classes abstratas servem para deixar o programa mais legÌvel,
-**ele impede que seja instanciado, criado um objeto, que seja genÈrico.
-**Serve tambÈm para restringir os tipos de objetos criados.
-**Normalmente as classes abstratas s·o as super classes.
-**As classes abstratas ter·o mÈtodos abstratos.
-**MÈtodos abstratos n„o possuem implementaÁ„o, possuindo apenas
-**declaraÁ„o, e obrigatoriamente, as classes que herdar„o desta classe
-**com mÈtodo abstrato precissam implementar estes mÈtodos.
-**Implemento s„o os comandos do mÈtodo, que fica depois das chaves.
+/*As classes abstratas servem para deixar o programa mais leg√≠vel,
+**ele impede que seja instanciado, criado um objeto, que seja gen√©rico.
+**Serve tamb√©m para restringir os tipos de objetos criados.
+**Normalmente as classes abstratas s√°o as super classes.
+**As classes abstratas ter√°o m√©todos abstratos.
+**M√©todos abstratos n√£o possuem implementa√ß√£o, possuindo apenas
+**declara√ß√£o, e obrigatoriamente, as classes que herdar√£o desta classe
+**com m√©todo abstrato precissam implementar estes m√©todos.
+**Implemento s√£o os comandos do m√©todo, que fica depois das chaves.
 **Exemplo: public abstract void outra_mensagem(String texto);*/
 
 package br.geekuniversity.secao13;
-
 import br.geekuniversity.secao12.Aluno;
-
 public class Programa31 {
 
 	public static void main(String[] args) {
-		//Pessoa maria = new Pessoa("Maria da Silva",1999,"maria@gmail.com");//N„o È mais possÌvel por ser uma classe abstrata
+		//Pessoa maria = new Pessoa("Maria da Silva",1999,"maria@gmail.com");//N√£o √© mais poss√≠vel por ser uma classe abstrata
 		Aluno maria = new Aluno("Maria da Silva",1999,"maria@gmail.com","587165");
 		System.out.println(maria.toString());
-		maria.outra_mensagem("SÛ sei que nada sei");
+		maria.outra_mensagem("S√≥ sei que nada sei");
 	}
 }
