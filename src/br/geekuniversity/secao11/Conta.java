@@ -1,20 +1,20 @@
-/* A classe apresenta os mÈtodos sacar e depositar.
- * O mÈtodo sacar apresenta algumas condiÁoes.
- * O destaque fica para a condiÁao do saque ser menor ou igual a saldo+limite,
- * caso a retirada tenha um valor menor ou igual a zero o saldo È atualizado
- * para zero, nessa mesma lÛgica ao atualizar o limite, usa-se o resultado negativo
+/* A classe apresenta os m√©todos sacar e depositar.
+ * O m√©todo sacar apresenta algumas condi√ßoes.
+ * O destaque fica para a condi√ßao do saque ser menor ou igual a saldo+limite,
+ * caso a retirada tenha um valor menor ou igual a zero o saldo √© atualizado
+ * para zero, nessa mesma l√≥gica ao atualizar o limite, usa-se o resultado negativo
  * da retirada para tirar do limite, como toda vez vai ser um valor negativo
- * È preciso somar o valor negativo para subtrair do limite e atualiza-lo.
+ * √© preciso somar o valor negativo para subtrair do limite e atualiza-lo.
  * 
  * O modificador de acesso public torna publico o determinado objeto, as classes os
- * construtores sempre s„o public.
+ * construtores sempre s√£o public.
  * Os atributos podem ser public, private, protected.
- * Dizer que uma classe, construtor ou atributo È p˙blic quer dizer que podem ser
+ * Dizer que uma classe, construtor ou atributo √© p√∫blic quer dizer que podem ser
  * acessados em todo o projeto.
- * Normalmente todos os atributos de uma classe s„o privados.
+ * Normalmente todos os atributos de uma classe s√£o privados.
  * 
  * O private torna aquele atributo exclusivo da classe, ou seja, somente
- * a classe pode acessar e modificar ela, n„o se pode importar para outra classe
+ * a classe pode acessar e modificar ela, n√£o se pode importar para outra classe
  * mesmo estando no mesmo projeto.*/
 
 package br.geekuniversity.secao11;
@@ -35,13 +35,13 @@ public class Conta {
 		this.cliente = cliente;
 	}
 
-	// ----------------------------------//
+	//----------------------------------//
 	public Conta() {
 	}
 
-	// ----------------------------------//
+	//----------------------------------//
 	/**
-	 * MÈtodo para sacar
+	 * M√©todo para sacar
 	 * 
 	 * @param valor de saque
 	 */
@@ -63,24 +63,24 @@ public class Conta {
 		}
 	}
 
-	// ----------------------------------//
+	//----------------------------------//
 	/**
 	 * Metodo para deposito
 	 * 
 	 * @param valor de deposito
 	 */
 	public void depositar(float deposito) {
-		/*Forma 01 de sincronizaÁ„o*/
+		/*Forma 01 de sincroniza√ß√£o*/
 		synchronized(this) {
 			this.saldo = this.saldo + deposito;
 		}
 	}
-	/*Forma 02 de sincronizaÁ„o
+	/*Forma 02 de sincroniza√ß√£o
 	 * public synchronized void depositar(float valor){
 	 * 		this.saldo = this.saldo+valor;
 	 * }*/
 
-	// ----------------------------------//
+	//----------------------------------//
 	/**
 	 * Metodo para mostrar o saldo
 	 * 
@@ -101,7 +101,7 @@ public class Conta {
 
 	@Override
 	public String toString() {
-		return "O saldo da conta È: " + this.getSaldo();
+		return "O saldo da conta √©: " + this.getSaldo();
 	}
 
 	@Override
