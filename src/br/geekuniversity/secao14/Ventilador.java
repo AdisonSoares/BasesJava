@@ -1,5 +1,4 @@
 package br.geekuniversity.secao14;
-
 import br.geekuniversity.secao14.IEletronico;
 
 @SuppressWarnings("unused")
@@ -9,7 +8,7 @@ public class Ventilador implements IEletronico{
 	
 	@Override
 	/**
-	 * Métodos abstratos da interface
+	 * MÃ©todos abstratos da interface
 	 */
 	public void ligar() {
 		if(!this.ligado) {
@@ -19,7 +18,7 @@ public class Ventilador implements IEletronico{
 	}
 	@Override
 	/**
-	 * Métodos abstratos da interface
+	 * MÃ©todos abstratos da interface
 	 */
 	public void desligar() {
 		if(this.ligado) {
