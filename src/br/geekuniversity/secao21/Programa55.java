@@ -2,11 +2,11 @@ package br.geekuniversity.secao21;
 
 /**
  * @Armazenamento_Sequencial Na pratica uma revisao de vetores e matrizes.
- * @Vetor_Zerado Case se tenha um vetor ou matriz do tipo numerico e n�o se
+ * @Vetor_Zerado Case se tenha um vetor ou matriz do tipo numerico e não se
  * armazenam valores automaticamente o programa ira preencher com
  * zero.
- * @Vetor_Null Quando um vetor ou matriz do tipo objeto eh construido e n�o se
- * armazenam valores automaticamente � colocado null.
+ * @Vetor_Null Quando um vetor ou matriz do tipo objeto eh construido e não se
+ * armazenam valores automaticamente é colocado null.
  */
 public class Programa55 {
 
@@ -121,7 +121,5 @@ public class Programa55 {
         System.out.println(lista.toString() + "\n");
         // Exibir total de alunos
         System.out.println("Total de alunos: " + lista.qtdeAlunos() + "\n");
-
-
     }
 }
