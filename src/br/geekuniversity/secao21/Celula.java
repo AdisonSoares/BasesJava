@@ -12,7 +12,6 @@ package br.geekuniversity.secao21;
  *
  * @Atributo_celula
  * Esse atributo vai fazer a ligacao da celula atual com a proxima celula
- *
  */
 public class Celula {
     private Object elemento;
