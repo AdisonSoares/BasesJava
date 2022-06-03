@@ -1,10 +1,9 @@
-/*A funÁ„o "divis„o" avisar· a possibilidade de uma Exception,
+/*A fun√ß√£o "divis√£o" avisar√° a possibilidade de uma Exception,
  *e apenas vai deixar o programa rodar se for tratada com try catch.
- *Deixando no catch apenas o Exception j· È feita uma an·lise completa.
- *… possivel colocar mais de uma tentativa(catch). */
+ *Deixando no catch apenas o Exception j√° √© feita uma an√°lise completa.
+ *√â possivel colocar mais de uma tentativa(catch). */
 
 package br.geekuniversity.secao16;
-
 import java.util.Scanner;
 
 public class Programa38 {
@@ -18,18 +17,17 @@ public class Programa38 {
 		int n2 = sc.nextInt();
 
 		try {
-			System.out.println("Resultado da divis„o:" + divisao(n1, n2));
+			System.out.println("Resultado da divis√£o:" + divisao(n1, n2));
 		} catch (ArithmeticException e) {
-			System.out.println("N„o foi possÌvel fazer a divis„o");
+			System.out.println("N√£o foi poss√≠vel fazer a divis√£o");
 		} catch (Exception e) {
-			System.out.println("ExceÁ„o tratada para sair a exigencia do eclipse");
+			System.out.println("Exce√ß√£o tratada para sair a exigencia do eclipse");
 		}
 		sc.close();
 
 	}
-
+	
 	public static int divisao(int n1, int n2) throws Exception {
 		return n1 / n2;
 	}
-
 }
