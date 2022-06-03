@@ -1,5 +1,4 @@
 package br.geekuniversity.secao20;
-
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 
@@ -9,7 +8,7 @@ public class Programa54 {
 		Conta conta01 = new Conta(1, 200, 300, cliente01);
 
 		/**
-		 * O método alterna entre a thrd01 e thrd02, soma individualmente 100 reais
+		 * O mÃ©todo alterna entre a thrd01 e thrd02, soma individualmente 100 reais
 		 * ou mostra o valor original pois cada um acessa do original.
 		 */
 		FazDeposito acao = new FazDeposito(conta01);
@@ -20,12 +19,11 @@ public class Programa54 {
 		thrd02.start();// Saldo 700 reais
 		
 		/**
-		 * Sincronização, é preciso ir no programa fonte (classe conta -M deposita) para acionar
+		 * SincronizaÃ§Ã£o, Ã© preciso ir no programa fonte (classe conta -M deposita) para acionar
 		 */
 		thrd01.join();
 		thrd02.join();
 		
 		System.out.println(conta01);// Saldo 700 reais fixo - Sincronizado
 	}
-
 }
