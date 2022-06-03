@@ -1,4 +1,4 @@
-/*Escrevendo em arquivos 02.*/
+/*Escrevendo em arquivos 02*/
 
 package br.geekuniversity.secao18;
 import java.io.FileOutputStream;
@@ -23,5 +23,4 @@ public class Programa44 {
 
 		sc.close();
 	}
-
 }
