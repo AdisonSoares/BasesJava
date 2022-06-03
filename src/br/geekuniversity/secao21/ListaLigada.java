@@ -4,7 +4,7 @@ package br.geekuniversity.secao21;
  * @Semelhante_a_alocacao_dinamica
  * @adicionaNoComeco Vai receber o valor da primeira posicao(Object elemento),
  * e vai apontar para o proximo elemento que eh nulo(Celula primeira).
- * @StringBuilder Significa String montador(builder), objetivo eh montar uma String.
+ * @String_Builder Significa String montador(builder), objetivo eh montar uma String.
  * @toString A funcao toString tem como objetivo apresentar o elemento e depois
  * acrescentar uma virgula, dentro do colchete.
  * @adicionaNoComeco Vai adicionando objetos no inicio da lista e depois aponta para null
