@@ -1,5 +1,4 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +33,5 @@ public class Programa76 {
         cursos.stream().//Transforma a colecao em stream - Streams
                 filter(c -> c.getAluno() >= 100).//Aplicacao do filtro - Lambda
                 forEach(System.out::println);//Mostrar resultado - Method Reference
-
     }
 }
