@@ -15,10 +15,8 @@ public class Programa43 {
 			}
 			ler.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("Não foi possivel encontrar o arquivo");
+			System.out.println("NÃ£o foi possivel encontrar o arquivo");
 			
 		}
-		
 	}
-
 }
