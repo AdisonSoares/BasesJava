@@ -9,6 +9,7 @@ public class Programa56 {
 			lista.addAluno(a);
 		}
 		System.out.println(lista+"\n");
+		
 		System.out.println("Quantidade de alunos: "+lista.qtdeAlunos()+"\n");
 	}
 }
