@@ -45,7 +45,7 @@ public class Programa46 {
 		}
 		System.out.println();
 		
-		/*Exibicao ordenada la�o foreach - Integer*/
+		/*Exibicao ordenada laço foreach - Integer*/
 		Collections.sort(numeros);
 		System.out.println("Exibicao ordenada foreach Integer:");
 		for(Integer intgNumero: numeros) {
