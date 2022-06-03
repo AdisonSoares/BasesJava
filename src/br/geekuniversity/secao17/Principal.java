@@ -1,10 +1,8 @@
-/*Gerando executáveis com jar.
+/*Gerando executÃ¡veis com jar.
  *JAR - Java Archive (Arquivo compactado java).*/
 
 package br.geekuniversity.secao17;
-
 import java.util.Scanner;
-
 import br.geekuniversity.secao11.Cliente;
 import br.geekuniversity.secao11.Conta;
 
@@ -15,10 +13,10 @@ public class Principal {
 	static Conta conta = new Conta(1, 200, 300, cliente);
 	static Scanner sc = new Scanner(System.in);
 
-	/* MÉTODOS */
+	/* MÃ‰TODOS */
 	public static void depositar() {
-		System.out.println("----------Depósito-----------");
-		System.out.print("Informe o valor para depósito: ");
+		System.out.println("----------DepÃ³sito-----------");
+		System.out.print("Informe o valor para depÃ³sito: ");
 		float valor = sc.nextFloat();
 		if (valor > 0) {
 			conta.depositar(valor);
@@ -42,16 +40,16 @@ public class Principal {
 
 	public static void consultar() {
 		System.out.println("----------Consultar-----------");
-		System.out.println("Seu saldo é: " + conta.getSaldo());
+		System.out.println("Seu saldo Ã©: " + conta.getSaldo());
 	}
 
-	/* MÉTODOS MAIN */
+	/* MÃ‰TODOS MAIN */
 	public static void main(String[] args) {
 		int opcao = 0;
 		System.out.println("--Bem vindo ao banco--\n");
 
 		do {
-			System.out.println("Selecione uma opção do menu abaixo:\n");
+			System.out.println("Selecione uma opÃ§Ã£o do menu abaixo:\n");
 			System.out.println("1-Depositar");
 			System.out.println("2-Sacar");
 			System.out.println("3-Consultar saldo");
@@ -75,7 +73,7 @@ public class Principal {
 				break;
 			}
 			default:
-				System.out.println("Opção incorreta");
+				System.out.println("OpÃ§Ã£o incorreta");
 			}
 		} while (opcao >= 0);
 		
