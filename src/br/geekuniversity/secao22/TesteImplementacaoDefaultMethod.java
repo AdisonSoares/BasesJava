@@ -1,5 +1,6 @@
 package br.geekuniversity.secao22;
 
+/*Classe teste*/
 public class TesteImplementacaoDefaultMethod implements ITesteDefaultMethods{
     @Override
     public String mensagem() {
