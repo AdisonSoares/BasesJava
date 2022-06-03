@@ -1,6 +1,6 @@
-/*Object - A m„e de todas as classes
- *Toda as classes por padr„o herdam da classe Object,
- *por isso n„o aparece a extens„o para Object.
+/*Object - A m√£e de todas as classes
+ *Toda as classes por padr√£o herdam da classe Object,
+ *por isso n√£o aparece a extens√£o para Object.
  *A classe Object faz parte do pacote java.lang.*/
 
 package br.geekuniversity.secao18;
@@ -15,7 +15,7 @@ public class Programa39 extends Object{
 		Conta cont01 = new Conta(1, 200, 300, cli01);
 		Conta cont02 = new Conta(2, 200, 300, cli02);
 		
-		//Por padr„o uma instancia imprime com toString
+		//Por padr√£o uma instancia imprime com toString
 		System.out.println(cont01.toString());
 		System.out.println(cont02.toString());
 		System.out.println();
@@ -43,15 +43,14 @@ public class Programa39 extends Object{
 		armConta.adicionar(cont02);
 		
 		/*----------------------------------------------*/
-		/*Para resolver o problema da falta do mÈtodo getSaldo no retorno object
-		 *È preciso transformar/cast para o tipo Conta*/
-		System.out.println("Saldo na posiÁ„o 0 È: "+((Conta)armConta.pegar(0)).getSaldo());
-		System.out.println("Saldo na posiÁ„o 1 È: "+((Conta)armConta.pegar(1)).getSaldo());
+		/*Para resolver o problema da falta do m√©todo getSaldo no retorno object
+		 *√© preciso transformar/cast para o tipo Conta*/
+		System.out.println("Saldo na posi√ß√£o 0 √©: "+((Conta)armConta.pegar(0)).getSaldo());
+		System.out.println("Saldo na posi√ß√£o 1 √©: "+((Conta)armConta.pegar(1)).getSaldo());
 		
-		armConta.adicionar(cli01);// N„o tem getSaldo
+		armConta.adicionar(cli01);// N√£o tem getSaldo
 		
-		//Precisa fazer um cast Cliente pois È do tipo object
+		//Precisa fazer um cast Cliente pois √© do tipo object
 		System.out.println("Nome do Cliente: "+((Cliente)armConta.pegar(2)).getNome());
 	}
-
 }
