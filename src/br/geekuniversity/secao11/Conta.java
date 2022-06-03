@@ -1,6 +1,6 @@
 /* A classe apresenta os métodos sacar e depositar.
  * O método sacar apresenta algumas condiçoes.
- * O destaque fica para a condiçao do saque ser menor ou igual a saldo+limite,
+ * O destaque fica para a condiçao do saque ser menor ou igual a saldo + limite,
  * caso a retirada tenha um valor menor ou igual a zero o saldo é atualizado
  * para zero, nessa mesma lógica ao atualizar o limite, usa-se o resultado negativo
  * da retirada para tirar do limite, como toda vez vai ser um valor negativo
