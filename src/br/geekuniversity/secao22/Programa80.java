@@ -1,12 +1,11 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
  * @Streams
- *  * Sao fluxos/entradas de dados/objetos utilizados para que possamos
+ * Sao fluxos/entradas de dados/objetos utilizados para que possamos
  * trabalhar com esses dados de forma mais criteriosa, ajuda a
  * simplificar filtros de pesquisa.
  * Quando trabalhamos com stream, os metodos aplicados a este stream
