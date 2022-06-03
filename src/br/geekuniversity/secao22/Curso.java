@@ -12,12 +12,15 @@ public class Curso {
     public String getNome() {
         return nome;
     }
+    
     public void setNome(String nome) {
         this.nome = nome;
     }
+    
     public int getAluno() {
         return aluno;
     }
+    
     public void setAluno(int aluno) {
         this.aluno = aluno;
     }
