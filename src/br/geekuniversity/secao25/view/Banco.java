@@ -1,10 +1,7 @@
 package br.geekuniversity.secao25.view;
-
 import br.geekuniversity.secao25.helper.Utils;
 import br.geekuniversity.secao25.model.Cliente;
 import br.geekuniversity.secao25.model.Conta;
-
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
