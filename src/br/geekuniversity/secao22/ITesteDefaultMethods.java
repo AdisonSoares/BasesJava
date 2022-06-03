@@ -2,7 +2,7 @@ package br.geekuniversity.secao22;
 
 /**
  * @Interface
- * Nao pode ter metodos implementados mas pode ter metodos default implementados.
+ * Nao pode ter métodos implementados mas pode ter metodos default implementados.
  */
 public interface ITesteDefaultMethods {
     int valor = 9;
