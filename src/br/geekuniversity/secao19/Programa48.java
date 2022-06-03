@@ -1,15 +1,15 @@
 /*Conjuntos
- *S�o implementados com interface Set, uma das classes
- *que o implementam � o HashSet.
- *A maioria das cole��es possuem os mesmos m�todos j�
+ *São implementados com interface Set, uma das classes
+ *que o implementam é o HashSet.
+ *A maioria das coleções possuem os mesmos métodos já
  *conhecidos e utilizados com as listas, "add", "get", "size".
- *A diferen�a est� no comportamento dos objetos, tendo uma
+ *A diferença está no comportamento dos objetos, tendo uma
  *melhor performance do que em listas.
- *OBS - OS CONJUNTOS N�O ACEITAM DADOS DUPLICADOS E REALIZA UM TIPO
- *DE ORDENA��O, N�O ACEITA ORDENA��O POR MEIO DO COLLECTIONS.SORT();
- *N�O TEM �NDICE COMO UMA LISTA, � DO TIPO BOOLEANO, SEU RETORNO �
- *TRUE OU FALSE, A VANTAGEM EST� NO CONTROLE DE REPETI��O POR�M
- *ESSE CONTROLE FALHA POIS DIFERE MAIUSCULO DE MINUSCULO E ESPA�O.*/
+ *OBS - OS CONJUNTOS NÃO ACEITAM DADOS DUPLICADOS E REALIZA UM TIPO
+ *DE ORDENAÇAO, NÃO ACEITA ORDENAÇÃO POR MEIO DO COLLECTIONS.SORT();
+ *NÃO TEM ÍNDICE COMO UMA LISTA, É DO TIPO BOOLEANO, SEU RETORNO É
+ *TRUE OU FALSE, A VANTAGEM ESTÁ NO CONTROLE DE REPETIÇÃO PORÉM
+ *ESSE CONTROLE FALHA POIS DIFERE MAIUSCULO DE MINUSCULO E ESPAÇO.*/
 
 package br.geekuniversity.secao19;
 import java.util.HashSet;
