@@ -1,5 +1,4 @@
 package br.geekuniversity.secao22;
-
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 
@@ -46,6 +45,5 @@ public class Programa82 {
         //Horario de intervalos
         LocalTime intervalo = LocalTime.of(9, 30);
         System.out.println(intervalo);
-
     }
 }
