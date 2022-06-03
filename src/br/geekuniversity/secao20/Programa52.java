@@ -1,6 +1,6 @@
 /*Threads - Criando e trabalhando
- *É uma execução em paralelo, é bem utilizado para processos demorados. 
- *Simulação com execução de threads.*/
+ *Ã‰ uma execuÃ§Ã£o em paralelo, Ã© bem utilizado para processos demorados. 
+ *SimulaÃ§Ã£o com execuÃ§Ã£o de threads.*/
 
 package br.geekuniversity.secao20;
 public class Programa52 {
@@ -12,6 +12,5 @@ public class Programa52 {
 		GerarRelatorio relatorio = new GerarRelatorio();
 		Thread thrdRelatorio = new Thread(relatorio);
 		thrdRelatorio.start();
-		
 	}
 }
