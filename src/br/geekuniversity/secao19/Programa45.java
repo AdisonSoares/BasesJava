@@ -1,10 +1,10 @@
-/*Listas 01 - Collections(Cole��es)
- *S�o tipos de dados,classes/interfaces, onde se guarda tipos variados
- *de dados desde que n�o seja especificado.
+/*Listas 01 - Collections(Coleções)
+ *São tipos de dados,classes/interfaces, onde se guarda tipos variados
+ *de dados desde que não seja especificado.
  *Ex: ArrayList<String> nomes = new ArrayList<String>();
- *Nesse exemplo ser� possivel armazenar Strings mas n�o outro tipo
+ *Nesse exemplo será possivel armazenar Strings mas não outro tipo
  *
- *OBS - A MELHOR FORMA DE DECLARAR UM ARRAY LIST � COMO LIST(INTERFACE), 
+ *OBS - A MELHOR FORMA DE DECLARAR UM ARRAY LIST É COMO LIST(INTERFACE), 
  *POIS DEPOIS PODE SER TROCADO O TIPO DE ARRAY PARA LINKED (CLASSE)*/
 
 package br.geekuniversity.secao19;
@@ -58,7 +58,5 @@ public class Programa45 {
 			System.out.println(objNome);
 		}
 		System.out.println();
-		
-		
 	}
 }
