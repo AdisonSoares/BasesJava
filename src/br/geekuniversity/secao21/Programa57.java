@@ -1,10 +1,10 @@
 package br.geekuniversity.secao21;
 
 /**
- * @Lista_ligada Também conhecida como LinkedList, sua diferanca para um vetor,
- * no vetor cada posicacao esta um do lado do outro em sequencia,
+ * @Lista_ligada Também conhecida como LinkedList, sua diferança para um vetor,
+ * no vetor cada posição esta um do lado do outro em sequencia,
  * na lista ligada as posicoes dos vetores podem estar em locais diferentes,
- * porem um aponta para o outro indicando o proximo elemento.
+ * porém um aponta para o outro indicando o proximo elemento.
  */
 public class Programa57 {
     public static void main(String[] args) {
