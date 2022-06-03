@@ -1,5 +1,4 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -32,6 +31,5 @@ public class Programa73 {
         //Forma 02
         Consumer<String> consumer = s -> System.out.println(s);
         palavras.forEach(consumer);
-
     }
 }
