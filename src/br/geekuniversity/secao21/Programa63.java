@@ -1,5 +1,4 @@
 package br.geekuniversity.secao21;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -26,8 +25,5 @@ public class Programa63 {
 
         //Exibindo fila
         System.out.println("Elementos incluidos: "+fila);
-
-
-
     }
 }
