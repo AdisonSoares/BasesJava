@@ -1,5 +1,4 @@
 package br.geekuniversity.secao21;
-
 import java.util.Arrays;
 
 public class Vetor {
@@ -30,7 +29,7 @@ public class Vetor {
 	 * @Avanco_de_posicao
 	 * O laco for eh usado para adiantar uma posicao
 	 * do que esta armazenado no vetor de alunos, para poder
-	 * acrescentar um novo aluno e ter espaco, n�o precisando
+	 * acrescentar um novo aluno e ter espaco, não precisando
 	 * de uma variavel auxiliar para armazenar o valor anterior.
 	 * 
 	 * @param alunos e posicao.
@@ -54,7 +53,7 @@ public class Vetor {
 	 * eh necessario que os outros valores ocupem
 	 * o espaco deixa no vetor de alunos.
 	 * 
-	 * @Substitui�ao_de_posicao
+	 * @Substituiçao_de_posicao
 	 * Em vez de deletar o dado na posicao selecionada
 	 * eh feita uma sobreposicao e o java entende que
 	 * o arquivo sobreposto eh deletado ficando o arquivo
@@ -102,8 +101,8 @@ public class Vetor {
 	}
 
 	/**
-	 * @M�todo_aumentar_limite_do_vetor_alunos
-	 * Caso precise acrescentar alunos alem de 100 esse m�todo
+	 * @Método_aumentar_limite_do_vetor_alunos
+	 * Caso precise acrescentar alunos alem de 100 esse método
 	 * duplica o limite e salva os dados do vetor anterior.
 	 */
 	private void aumentarLimite() {
@@ -115,5 +114,4 @@ public class Vetor {
 			this.alunos=novoArray;//Novo objeto arrayAlunos instanciado.
 		}
 	}
-
 }
