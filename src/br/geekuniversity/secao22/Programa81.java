@@ -1,11 +1,10 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- *@Streams_+_Thread_paralelismo
+ * @Streams_+_Thread_paralelismo
  * Util quando se trabalho com milhoes/bilhoes de dados.
  * Nao recomendado para quantidade pequena de dados.
  *
