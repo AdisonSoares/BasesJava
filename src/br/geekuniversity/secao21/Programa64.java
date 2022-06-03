@@ -38,6 +38,4 @@ public class Programa64 {
         //Preenchido
         System.out.println(conjunto);
     }
-    
-
 }
