@@ -1,5 +1,4 @@
 package br.geekuniversity.secao24.Model;
-
 import java.util.Random;
 
 /**
