@@ -1,4 +1,4 @@
-/*Por padr„o as threads n„o s„o sincronizadas*/
+/*Por padr√£o as threads n√£o s√£o sincronizadas*/
 
 package br.geekuniversity.secao20;
 import br.geekuniversity.secao11.Cliente;
@@ -11,7 +11,7 @@ public class Programa53 {
 		//System.out.println(conta01);// Saldo 500 reais
 		
 		/**
-		 * O mÈtodo alterna entre a thrd01 e thrd02, soma individualmente 100 reais
+		 * O m√©todo alterna entre a thrd01 e thrd02, soma individualmente 100 reais
 		 * ou mostra o valor original pois cada um acessa do original.
 		 */
 		FazDeposito acao = new FazDeposito(conta01);
@@ -21,8 +21,6 @@ public class Programa53 {
 		thrd01.start();// Saldo 600 reais
 		thrd02.start();// Saldo 700 reais
 		
-		System.out.println(conta01);// Saldo 700 ou 600 ou 500 reais - N„o Sincronizado
-		
-		
+		System.out.println(conta01);// Saldo 700 ou 600 ou 500 reais - N√£o Sincronizado
 	}
 }
