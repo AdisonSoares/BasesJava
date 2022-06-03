@@ -1,27 +1,27 @@
-/*Trabalhando com Strings,
- *Strings s„o imut·veis, caso haja mudanÁa È 
- *preciso fazer uma nova vari·vel para receber.
- *String È um array de caracteres.*/
+/*Trabalhando com Strings.
+ *Strings s√£o imut√°veis, caso haja mudan√ßa √© 
+ *preciso fazer uma nova vari√°vel para receber.
+ *String √© um array de caracteres.*/
 
 package br.geekuniversity.secao18;
 public class Programa41 {
 	public static void main(String[] args) {
-		String mensagem01 = "ProgramaÁ„o em java\n";
+		String mensagem01 = "Programa√ß√£o em java\n";
 		System.out.println(mensagem01);
 		
-		/*MÈtodo de ediÁ„o - troca*/
+		/*M√©todo de edi√ß√£o - troca*/
 		String mensagem02 = mensagem01.replace("java","python");
 		System.out.println(mensagem02);
 		
-		/*MÈtodo de ediÁ„o - maiusculo*/
+		/*M√©todo de edi√ß√£o - maiusculo*/
 		String mensagem03=mensagem01.toUpperCase();
 		System.out.println(mensagem03);
 		
-		/*MÈtodo de ediÁ„o - minusculo*/
+		/*M√©todo de edi√ß√£o - minusculo*/
 		String mensagem04=mensagem01.toLowerCase();
 		System.out.println(mensagem04);
 		
-		/*ManipulaÁ„o do array Strig de acordo com a posiÁ„o*/
+		/*Manipula√ß√£o do array Strig de acordo com a posi√ß√£o*/
 		System.out.println(mensagem01.charAt(0));
 		
 		/*Ordem normal*/
