@@ -1,7 +1,5 @@
 package br.geekuniversity.secao24.View;
-
 import br.geekuniversity.secao24.Model.Calcular;
-
 import java.util.Scanner;
 
 /**
