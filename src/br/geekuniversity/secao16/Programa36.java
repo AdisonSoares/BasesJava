@@ -1,7 +1,6 @@
-/*Tratando exceções com Try Catch e finally*/
+/*Tratando exceÃ§Ãµes com Try Catch e finally*/
 
 package br.geekuniversity.secao16;
-
 public class Programa36 {
 
 	public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class Programa36 {
 			try {
 				System.out.println(numeros[i]);
 			}catch(java.lang.ArrayIndexOutOfBoundsException e) {
-				System.out.println("Não é possível acessar a informaçao");
+				System.out.println("NÃ£o Ã© possÃ­vel acessar a informaÃ§ao");
 			}finally {
 				System.out.println("Finally executado.....");
 			}	
