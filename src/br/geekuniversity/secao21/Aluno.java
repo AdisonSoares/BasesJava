@@ -12,7 +12,7 @@ public class Aluno {
 		return this.nome;
 	}
 
-	// Verificar se o aluno pesquisado � o mesmo se ambos tiverrem o mesmo nome
+	// Verificar se o aluno pesquisado é o mesmo se ambos tiverrem o mesmo nome
 	@Override
 	public boolean equals(Object obj) {
 		Aluno outro = (Aluno) obj;
