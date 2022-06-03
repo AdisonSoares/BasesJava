@@ -1,9 +1,8 @@
-//Atributos Est�ticos
-/*Atributos est�ticos s�o atributos, onde os valores s�o compartilhados
-**entre as instancias da classe, mesmo dentro de outra classe precisa instanciar.*/
+//Atributos Estáticos
+/*Atributos estáticos são atributos, onde os valores são compartilhados
+**entre as instâncias da classe, mesmo dentro de outra classe precisa instanciar.*/
 
 package br.geekuniversity.secao15;
-
 import br.geekuniversity.secao15.Conta;
 
 @SuppressWarnings("unused")
@@ -20,10 +19,8 @@ public class Programa34 {
 		System.out.println(conta2.getNumero());
 		System.out.println();
 		
-		//Modificar uma vari�vel est�tica
+		//Modificar uma variável estática
 		Conta.contador = 40;
 		System.out.println(Conta.contador);
-
 	}
-
 }
