@@ -13,7 +13,7 @@ public class Conta {
 		Conta.contador = contador+1;
 	}
 	
-	//MÈtodos Get e Set
+	//M√©todos Get e Set
 	public int getNumero() {
 		return numero;
 	}
@@ -28,11 +28,10 @@ public class Conta {
 	}
 	
 	/**
-	 * MÈtodo est·tico
+	 * M√©todo est√°tico
 	 * @return valor do contador
 	 */
 	public static int proximaConta() {
 		return Conta.contador;
 	}
-
 }
