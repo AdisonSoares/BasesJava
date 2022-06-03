@@ -8,7 +8,6 @@ public class Programa67 {
         ITesteDefaultMethods teste = new TesteImplementacaoDefaultMethod();
 
         System.out.println(teste.mensagem());
-
         teste.meu_metodo();
     }
 }
