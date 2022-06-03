@@ -1,5 +1,4 @@
 package br.geekuniversity.secao25.model;
-
 import br.geekuniversity.secao25.helper.Utils;
 
 /**
