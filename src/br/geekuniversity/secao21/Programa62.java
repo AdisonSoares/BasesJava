@@ -59,6 +59,5 @@ public class Programa62 {
         //Removendo elementos
         String ret2 = fila.remove();
         System.out.println("Elemento removido: "+ret2);
-
     }
 }
