@@ -1,7 +1,7 @@
 /*HashMap
  *Ela implementa a interface Map e trabalha com chave/valor.
- *N�o aceita chaves duplicadas, por�m se tiver chave diferente
- *� aceito mesmo com valores duplicados.*/
+ *Não aceita chaves duplicadas, porém se tiver chave diferente
+ *É aceito mesmo com valores duplicados.*/
 
 package br.geekuniversity.secao19;
 import java.util.HashMap;
@@ -28,8 +28,5 @@ public class Programa49 {
 		
 		/*Exibir conteudo da conta somente com a chave*/
 		System.out.println(contas.get("Pessoa fisica"));
-		
-		
-		
 	}
 }
