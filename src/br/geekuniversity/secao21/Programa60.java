@@ -4,7 +4,7 @@ package br.geekuniversity.secao21;
  * @Pilhas
  * Sao estruturas de dados em que o elemento disponivel sempre estara no topo,
  * quando acrescentar ou tirar algum elemento sempre sera do topo para baixo,
- * ultimo elemento que entra eh o primeiro que sai.
+ * o último elemento que entra eh o primeiro que sai.
  */
 public class Programa60 {
     public static void main(String[] args) {
@@ -51,7 +51,5 @@ public class Programa60 {
         //Remove e mostra o que foi removido
         String r3 = pilha.remove();
         System.out.println("Removido: "+r3+"\n");
-
-
     }
 }
