@@ -2,7 +2,7 @@ package br.geekuniversity.secao23;
 
 /**
  * @Debugando
- * Debugar tem relacao com a investigacao para encontrar bugs ou
+ * Debugar tem relação com a investigacao para encontrar bugs ou
  * verificar o comportamento do sistema para saber se estao se comportando
  * conforme o esperado.
  */
