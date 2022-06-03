@@ -1,5 +1,4 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -30,6 +29,5 @@ public class Programa71 {
 
         //Forma 02
         palavras.forEach(s -> System.out.println(s));
-
     }
 }
