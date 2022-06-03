@@ -30,6 +30,6 @@ codificação passo a passo  de exemplos.
 - Projeto 2 - Banco;
 
 <h4 align="center"> 
-	🚧  Em construção...  🚧
+	🚧  Finalizado  🚧
 </h4>
 
