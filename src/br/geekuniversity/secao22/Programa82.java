@@ -23,14 +23,14 @@ public class Programa82 {
 
         System.out.println("O ano novo sera no dia "+dia+"º do mes de "+mes+" do ano de "+ano);
 
-        //Quanto tempo falta de hoje para o ano novo
+        //Quanto falta de hoje para o ano novo
         Period periodo = Period.between(hoje, ano_novo);
         System.out.println(periodo);
 
         //Acesso individual
         System.out.println("Faltam "+periodo.getYears()+" anos, "+periodo.getMonths()+" meses e "+periodo.getDays()+" dias para o ano novo");
 
-        //Formatar a partir de um fora do padrao internacional - DATA
+        //Formatar a partir do padrao internacional - DATA
         DateTimeFormatter formatar = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         System.out.println(hoje.format(formatar));
 
@@ -38,7 +38,7 @@ public class Programa82 {
         LocalDateTime agora = LocalDateTime.now();
         System.out.println(agora);
 
-        //Formatar a partir de um fora do padrao internacional - DATA e HORA
+        //Formatar a partir do padrao internacional - DATA e HORA
         DateTimeFormatter formatar_hora = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         System.out.println(agora.format(formatar_hora));
 
