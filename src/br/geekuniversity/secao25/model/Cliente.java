@@ -1,7 +1,5 @@
 package br.geekuniversity.secao25.model;
-
 import br.geekuniversity.secao250.helper.Utils;
-
 import java.util.Date;
 
 /**
