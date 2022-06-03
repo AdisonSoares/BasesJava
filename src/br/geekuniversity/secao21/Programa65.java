@@ -1,5 +1,4 @@
 package br.geekuniversity.secao21;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -41,6 +40,5 @@ public class Programa65 {
         System.out.println(nome4.hashCode());
         System.out.println(nome5.hashCode());
         System.out.println("Alberto".hashCode());
-
     }
 }
