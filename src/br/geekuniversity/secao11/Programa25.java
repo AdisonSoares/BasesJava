@@ -27,7 +27,5 @@ public class Programa25 {
 
 		conta_1.sacar(300);
 		System.out.println("Saldo cliente_1 depois do saque: " + conta_1.getSaldo());
-
 	}
-
 }
