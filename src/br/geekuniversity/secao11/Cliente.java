@@ -8,7 +8,6 @@
  * o acesso é como um elemento public dentro do pacote.*/
 
 package br.geekuniversity.secao11;
-
 import br.geekuniversity.secao11.Cliente;
 
 @SuppressWarnings("rawtypes")
