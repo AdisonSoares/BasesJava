@@ -1,10 +1,10 @@
 /*Mapas/map
- *Mapas s�o representados pela interface Map, e mapeiam
+ *Mapas são representados pela interface Map, e mapeiam
  *seus elementos utilizando o conceito de chave/valor.
- *Mapas representam 3 cole�oes:
- *-Cole��o de chaves;
- *-Cole��o de valores;
- *-Cole��o de associa��es;*/
+ *Mapas representam 3 coleções:
+ *-Coleção de chaves;
+ *-Coleção de valores;
+ *-Coleção de associações;*/
 
 package br.geekuniversity.secao19;
 
