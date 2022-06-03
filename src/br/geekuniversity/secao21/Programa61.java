@@ -34,8 +34,5 @@ public class Programa61 {
         String r2 = nomes.pop();
         System.out.println("Removido: "+r2);
         System.out.println(nomes);
-
-
-
     }
 }
