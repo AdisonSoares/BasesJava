@@ -1,4 +1,4 @@
-/*Tratando exceções com Try Catch e finally*/
+/*Tratando exceções com Try Catch e Finally*/
 
 package br.geekuniversity.secao16;
 public class Programa36 {
