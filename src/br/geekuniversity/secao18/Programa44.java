@@ -1,4 +1,4 @@
-/*Escrevendo em arquivos 02*/
+/*Escrevendo em arquivos 02.*/
 
 package br.geekuniversity.secao18;
 import java.io.FileOutputStream;
@@ -18,7 +18,7 @@ public class Programa44 {
 			mensagem02.println(mensagem03);
 			mensagem02.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("Não foi possivel criar o arquivo de mensagem");
+			System.out.println("NÃ£o foi possivel criar o arquivo de mensagem");
 		}
 
 		sc.close();
