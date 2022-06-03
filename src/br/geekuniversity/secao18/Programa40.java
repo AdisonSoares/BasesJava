@@ -1,5 +1,5 @@
 /*Utilizando a biblioteca Math.
- *Ela possui mÈtodos e constantes est·ticas para uso.*/
+ *Ela possui m√©todos e constantes est√°ticas para uso.*/
 
 package br.geekuniversity.secao18;
 public class Programa40 {
@@ -22,7 +22,6 @@ public class Programa40 {
 		/*Calculos*/
 		System.out.println(Math.pow(3,2));
 		System.out.println(Math.sqrt(9));
-		
 	}
 }
 
