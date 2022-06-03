@@ -3,7 +3,8 @@ import java.util.Comparator;
 
 /**
  * @Classe_propria_para_comparar
- * Essa classe implementa o comparator, que serve para comparar apenas Strings.
+ * Essa classe implementa o comparator, que serve para comparar
+ * apenas Strings.
  *
  * @Resultados
  * String 01 < String 02, retorna -1
