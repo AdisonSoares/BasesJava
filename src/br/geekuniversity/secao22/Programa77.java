@@ -1,5 +1,4 @@
 package br.geekuniversity.secao22;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +28,5 @@ public class Programa77 {
                 .filter(c -> c.getAluno() >= 100)//Aplicacao do filtro - Lambda
                 .map(Curso::getAluno)//Mapeia um tipo de dado para outro, no caso para o inteiro
                 .forEach(System.out::println);//Mostrar resultado - Method Reference
-
-
     }
 }
