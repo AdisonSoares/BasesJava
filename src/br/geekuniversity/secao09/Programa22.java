@@ -13,7 +13,7 @@
   No exemplo abaixo o p0 é a instância do objeto ou objeto,ou seja,
   o p0 é uma instancia/objeto da classe Produto.
   OBS - Quando se coloca um valor com ponto em uma variável de tipo flutuante precisa
-  colocar f no final no número, caso não tenha ponto ele converte automático para float.
+  colocar f no final no número, caso não tenha ponto ele converte automático para double.
   Construtor é um método especial que constroe o objeto/instância.
   Por ser um método também pode ser chamado de Método Construtor.
   O construtor da classe sempre tem o mesmo nome da classe.
