@@ -35,7 +35,7 @@ public class Programa17 {
 		//Foreatch
 		//Para cada inteiro dentro de que chamo de i dentro de numeros
 		//Imprima i
-		//Não tem condições de parada, ao contrato do laço for
+		//Não tem condições de parada, ao contrario do laço for
 		//Vai mostrar até o limite do vetor
 		for (int i : numeros) {
 			System.out.println(i);
