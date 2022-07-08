@@ -5,7 +5,7 @@
  *
  */
 
-//Vetores/arrays/matrizer multidi-mensionais
+//Vetores/arrays/matrizer multi-dimensionais
 
 /* Vetor // linhas
  * int vetor[3];
